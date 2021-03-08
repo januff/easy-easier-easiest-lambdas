@@ -1,6 +1,6 @@
 **Serverless APIs Deployment Checklist**
 ---
-*AWS Lambdas, With & Without AWS*
+*AWS Lambdas, with or without AWS*
 
 [Set-up instructions for Netlify](netlify/README.md)
 
