@@ -1,6 +1,6 @@
-**Serverless Functions Quickstart**
+**Serverless APIs Deployment Checklist**
 ---
-Setting up an AWS Lambda, with or without AWS.
+*AWS Lambdas, With & Without AWS*
 
 [Set-up instructions for Netlify](netlify/README.md)
 
