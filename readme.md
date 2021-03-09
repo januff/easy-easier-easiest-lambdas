@@ -1,5 +1,13 @@
 **Serverless APIs Deployment Checklist**
+
+>You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself. 
+
+term: definition
+
+- [ ] An uncompleted task
+
 ---
+
 *AWS Lambdas, with or without AWS*
 
 * Because I've known AWS Lambdas to be tricky
@@ -16,10 +24,41 @@
 
 *ANIMATION TEST*
 
-**GIF**
+**GIF (432KB)**
 
 ![gif of selectiont](assets/selection.gif)
 
-**WEBP**
+**WEBP (1.4MB)**
 
 ![webp of selection](assets/selected.webp)
+
+
+**FFMPEG GIF (24KB)**
+
+![gif of selectiont](assets/ls.gif)
+
+---
+
+### Specific Language Code ###
+
+
+```javascript
+const { createClient } = require("@astrajs/collections")
+
+export default async (req, res) => {
+  const { query: { name } } = req
+
+  const astraClient = await createClient({
+    astraDatabaseId: process.env.ASTRA_DB_ID,
+    astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+    username: process.env.ASTRA_DB_USERNAME,
+    password: process.env.ASTRA_DB_PASSWORD,
+  })
+
+  const collection = astraClient
+    .namespace(process.env.ASTRA_DB_KEYSPACE)
+    .collection(name)
+
+  res.send(collection)
+}
+```
