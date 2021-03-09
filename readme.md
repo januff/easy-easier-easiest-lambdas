@@ -7,3 +7,5 @@
 [Set-up instructions for Vercel](vercel/README.md)
 
 [Set-up instructions for Amplify](amplify/README.md)
+
+![animated gif of selected text](assets/selection.gif)
