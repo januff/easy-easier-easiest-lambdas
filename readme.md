@@ -5,7 +5,7 @@
 - - -
 
 <details open>
-  <summary>Amplify</summary>
+  <summary>:heart: Amplify</summary>
   <p>
 
   [Set-up instructions for Amplify](amplify)
