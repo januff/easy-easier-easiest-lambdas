@@ -1,8 +1,35 @@
+## *AWS Lambdas: Easy, Easier, Easiest* ##
+
+`You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.`
+
+- - -
+
+<details>
+  <summary>Amplify</summary>
+
+[Set-up instructions for Amplify](amplify/README.md)
+  </details>
+
+<details>
+  <summary>Netlify</summary>
+
+[Set-up instructions for Netlify](netlify/README.md)
+</details>
+
+<details>
+  <summary>Vercel</summary>
+
+  [Set-up instructions for Vercel](vercel/README.md)
+</details>
+
+- - -
+
+
+<kbd>Return</kbd>
+
+AWS Lambdas: 3 Ways to Deploy
+
 **Serverless APIs Deployment Checklist**
-
->You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself. 
-
-term: definition
 
 - [ ] An uncompleted task
 
@@ -16,11 +43,11 @@ term: definition
 * Because I need a place to save my tabs
 * Because I wanted to compare workflows side-by-side
 
-[Set-up instructions for Netlify](netlify/README.md)
+
 
 [Set-up instructions for Vercel](vercel/README.md)
 
-[Set-up instructions for Amplify](amplify/README.md)
+
 
 *ANIMATION TEST*
 
