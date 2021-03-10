@@ -4,15 +4,15 @@
 
 - - -
 
-<details>
+<details open>
   <summary>Amplify</summary>
   <p>
 
-  [Set-up instructions for Amplify](amplify/)
+  [Set-up instructions for Amplify](amplify)
   </p>
   </details>
 
-<details>
+<details open>
   <summary>Netlify</summary>
   <p>
 
@@ -20,7 +20,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary>Vercel</summary>
   <p>
 
