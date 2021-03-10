@@ -8,7 +8,7 @@
   <summary>Amplify</summary>
   <p>
 
-  [Set-up instructions for Amplify](amplify/README.md)
+  [Set-up instructions for Amplify](amplify/)
   </p>
   </details>
 
@@ -16,7 +16,7 @@
   <summary>Netlify</summary>
   <p>
 
-  [Set-up instructions for Netlify](netlify/README.md)
+  [Set-up instructions for Netlify](netlify)
   </p>
 </details>
 
@@ -24,7 +24,7 @@
   <summary>Vercel</summary>
   <p>
 
-  [Set-up instructions for Vercel](vercel/README.md)
+  [Set-up instructions for Vercel](vercel)
   </p>
 </details>
 
