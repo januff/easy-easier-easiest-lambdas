@@ -34,15 +34,17 @@ Where AWS becomes overkill are typical JAMstack apps. A static site with lots of
 ---
 
 
-**Serverless Quotes That Explain Well**
+**Pretty Decent Explanations**
 
+***FOR SERVERLESS:***
 *“You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.”*
 -***Dorcas Ferry***, [_Serverless Functions, Netlify vs Vercel, and the Jamstack_](https://morioh.com/p/dc014b3356d2)
 
+***FOR JAMSTACK:***
 *“For static content, everything is prebuilt and cached. For dynamic content, companies build microservices that are loaded on demand and that can scale easily.”*
 -***Romain Dillet***, [_Cloudflare is testing a Netlify competitor to host Jamstack sites_](https://techcrunch.com/2020/12/07/cloudflare-is-testing-a-netlify-competitor-to-host-jamstack-sites/)
 
-
+***FOR VERCEL:***
 *“Unlike Netlify, Vercel simplifies its serverless function signature by only accepting requests and responses as parameters, which is achieved by wrapping the original AWS Lambda environment and simplifying it only for serving content purposes. Brilliant idea!”*
 -***Emrah Samdan***, [_Why do companies invent their own serverless functions?_](https://blog.thundra.io/why-do-companies-invent-their-own-serverless-functions)
 
