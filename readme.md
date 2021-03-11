@@ -1,7 +1,8 @@
-### *AWS Lambdas: Easy, Easier, Easiest* ###
+#### AWS Lambdas: Easy, Easier, Easiest ####
 
-_“**When not to choose AWS**
-Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.”-***Swizec Teller***, [_Serverless Handbook: AWS, Vercel, Netlify, or Firebase?_](https://serverlesshandbook.dev/serverless-flavors/)_
+
+
+“**When not to choose AWS** Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.” -**Swizec Teller**, ***AWS, Vercel, Netlify, or Firebase?*** ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
 
 - - -
@@ -33,27 +34,39 @@ Where AWS becomes overkill are typical JAMstack apps. A static site with lots of
 
 ---
 
-**Pretty Good Explanations...**
+<details closed>
+  <summary>
 
-***...for Serverless:***
-*“You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.”*
--***Dorcas Ferry***, [_Serverless Functions, Netlify vs Vercel, and the Jamstack_](https://morioh.com/p/dc014b3356d2)
+  ### A Few Good Explanations ### 
+  
+  <code>**for SERVERLESS**</code>
 
-***...for Jamstack:***
-*“For static content, everything is prebuilt and cached. For dynamic content, companies build microservices that are loaded on demand and that can scale easily.”*
--***Romain Dillet***, [_Cloudflare is testing a Netlify competitor to host Jamstack sites_](https://techcrunch.com/2020/12/07/cloudflare-is-testing-a-netlify-competitor-to-host-jamstack-sites/)
+**“You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.”**
+-James Q. Quick, *Serverless Functions, Netlify vs Vercel, and the Jamstack* ([YouTube, Dec 10 2020](https://morioh.com/p/dc014b3356d2))
 
-***...for Jamstack:***
-*“You effectively remove the performance tradeoff of serverless because static elements of the website are pre-rendered, and then a serverless backend is delivered either via APIs or right from the network edge in response to request/response logic.”*
--***Matt Biilmann***, [_Biilmann Jamstack Interview_](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
+[+]
+  </summary>
 
-***...for Serverless:***
-*“When serverless started, it was about making the lives of backend developers easier. As it’s progressing, we’re seeing more frontend focused teams using serverless to build APIs and access data that wasn’t easily accessible. Serverless is going mainstream.”*
--***Matt Biilmann***, [_Biilmann Jamstack Interview_](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
+  **“When serverless started, it was about making the lives of backend developers easier. As it’s progressing, we’re seeing more frontend focused teams using serverless to build APIs and access data that wasn’t easily accessible. Serverless is going mainstream.”**
+  -Matt Biilmann, *Interview with Matt Biilmann, CEO and co-founder, Netlify* ([Jaxenter, Feb 16 2021)](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
 
-***...for Vercel:***
-*“Unlike Netlify, Vercel simplifies its serverless function signature by only accepting requests and responses as parameters, which is achieved by wrapping the original AWS Lambda environment and simplifying it only for serving content purposes. Brilliant idea!”*
--***Emrah Samdan***, [_Why do companies invent their own serverless functions?_](https://blog.thundra.io/why-do-companies-invent-their-own-serverless-functions)
+
+
+<code>**for JAMSTACK**</code>
+
+**“For static content, everything is prebuilt and cached. For dynamic content, companies build microservices that are loaded on demand and that can scale easily.”**
+-Romain Dillet, *Cloudflare is testing a Netlify competitor to host Jamstack sites* ([TechCrunch, Dec 7 2020](https://techcrunch.com/2020/12/07/cloudflare-is-testing-a-netlify-competitor-to-host-jamstack-sites/))
+
+**“You effectively remove the performance tradeoff of serverless because static elements of the website are pre-rendered, and then a serverless backend is delivered either via APIs or right from the network edge in response to request/response logic.”**
+-Matt Biilmann, *Interview with Matt Biilmann, CEO and co-founder, Netlify* ([Jaxenter, Feb 16 2021)](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
+
+
+<code>**for VERCEL**</code>
+
+**“Unlike Netlify, Vercel simplifies its serverless function signature by only accepting requests and responses as parameters, which is achieved by wrapping the original AWS Lambda environment and simplifying it only for serving content purposes. Brilliant idea!”**
+-Emrah Samdan, *Why do companies invent their own serverless functions?* ([Thundra Blog, Jul 2020](https://blog.thundra.io/why-do-companies-invent-their-own-serverless-functions))
+
+</details>
 
 - - -
 
