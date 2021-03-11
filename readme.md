@@ -14,7 +14,7 @@
   </p>
   </details>
 
-<details open>
+<details>
   <summary><code>Netlify</code></summary>
   <p>
 
@@ -22,7 +22,8 @@
   </p>
 </details>
 
-<details open>
+
+<details>
   <summary><code>Vercel</code></summary>
   <p>
 
@@ -30,6 +31,7 @@
   </p>
 </details>
 
+---
 <details>
 <summary><kbd>&nbsp;Deep Thoughts 💭</kbd></summary>
 
