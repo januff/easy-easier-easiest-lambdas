@@ -17,6 +17,7 @@ Back in the day, AWS Lambda functions could be treacherous to configure (ie. for
 -James Q. Quick, *Serverless Functions, Netlify vs Vercel, and the Jamstack* ([YouTube, Dec 10 2020](https://morioh.com/p/dc014b3356d2))
 <details closed>
   <summary> [+] </summary>
+<p>
 
   **“When serverless started, it was about making the lives of backend developers easier. As it’s progressing, we’re seeing more frontend focused teams using serverless to build APIs and access data that wasn’t easily accessible. Serverless is going mainstream.”**
   -Matt Biilmann, *Interview with Matt Biilmann, CEO and co-founder, Netlify* ([Jaxenter, Feb 16 2021)](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
