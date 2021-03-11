@@ -5,6 +5,8 @@
 ![gif of selectiont](assets/ls.gif)
 Back in the day, AWS Lambda functions could be treacherous to configure (ie. for me, last year.) But Amazon's new Amplify CLI has dramatically simplified Lambda set-up, while cloud purveyors Netlify and Vercel offer aggressively simplified Lambda wrappers. This repo collects deployment instructions and tips for all three platforms. 
 
+(Companion essay: _Medium_)
+
 ---
 
 ### Some Helpful Explanations 💬 ###
@@ -39,6 +41,23 @@ Back in the day, AWS Lambda functions could be treacherous to configure (ie. for
 
 - - -
 
+### Apache Cassandra™ ...*SERVERLESS!* ###
+
+<details closed>
+
+<summary>DataStax Astra Cassandra-as-a-Service 
+</summary>
+
+  <p>
+
+  [Set-up instructions for Astra](astra)
+  </p>
+</details>
+
+
+
+- - -
+
 ### Deployment Quickstarts ###
 
 <details open>
@@ -65,19 +84,3 @@ Back in the day, AWS Lambda functions could be treacherous to configure (ie. for
   [Set-up instructions for Vercel](vercel-with-next-js)
   </p>
 </details>
-
-- - -
-
-### Apache Cassandra™ ...*SERVERLESS?* ###
-
-<details closed>
-
-<summary>DataStax Astra Cassandra-as-a-Service 
-</summary>
-
-  <p>
-
-  [Set-up instructions for Astra](astra)
-  </p>
-</details>
-
