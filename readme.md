@@ -33,18 +33,25 @@ Where AWS becomes overkill are typical JAMstack apps. A static site with lots of
 
 ---
 
+**Pretty Good Explanations...**
 
-**Pretty Decent Explanations**
-
-***FOR SERVERLESS:***
+***...for Serverless:***
 *“You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.”*
 -***Dorcas Ferry***, [_Serverless Functions, Netlify vs Vercel, and the Jamstack_](https://morioh.com/p/dc014b3356d2)
 
-***FOR JAMSTACK:***
+***...for Jamstack:***
 *“For static content, everything is prebuilt and cached. For dynamic content, companies build microservices that are loaded on demand and that can scale easily.”*
 -***Romain Dillet***, [_Cloudflare is testing a Netlify competitor to host Jamstack sites_](https://techcrunch.com/2020/12/07/cloudflare-is-testing-a-netlify-competitor-to-host-jamstack-sites/)
 
-***FOR VERCEL:***
+***...for Jamstack:***
+*“You effectively remove the performance tradeoff of serverless because static elements of the website are pre-rendered, and then a serverless backend is delivered either via APIs or right from the network edge in response to request/response logic.”*
+-***Matt Biilmann***, [_Biilmann Jamstack Interview_](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
+
+***...for Serverless:***
+*“When serverless started, it was about making the lives of backend developers easier. As it’s progressing, we’re seeing more frontend focused teams using serverless to build APIs and access data that wasn’t easily accessible. Serverless is going mainstream.”*
+-***Matt Biilmann***, [_Biilmann Jamstack Interview_](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
+
+***...for Vercel:***
 *“Unlike Netlify, Vercel simplifies its serverless function signature by only accepting requests and responses as parameters, which is achieved by wrapping the original AWS Lambda environment and simplifying it only for serving content purposes. Brilliant idea!”*
 -***Emrah Samdan***, [_Why do companies invent their own serverless functions?_](https://blog.thundra.io/why-do-companies-invent-their-own-serverless-functions)
 
