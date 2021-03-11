@@ -1,6 +1,8 @@
-## *AWS Lambdas: Easy, Easier, Easiest* ##
+### *AWS Lambdas: Easy, Easier, Easiest* ###
 
-`You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.`
+
+*“You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.”*
+-[_Dorcas Ferry_](https://morioh.com/p/dc014b3356d2)
 
 - - -
 
@@ -22,6 +24,15 @@
 
 <details open>
   <summary><code>Vercel</code></summary>
+  <p>
+
+  [Set-up instructions for Vercel](vercel)
+  </p>
+</details>
+
+<details>
+<summary><a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Show all details</a>  </summary>
+
   <p>
 
   [Set-up instructions for Vercel](vercel)
