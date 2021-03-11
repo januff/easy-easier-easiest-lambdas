@@ -10,7 +10,7 @@
   <summary><code>Amplify</code></summary>
   <p>
 
-  [Set-up instructions for Amplify](amplify-with-cra)
+  [Set-up instructions for Amplify](amplify-with-create-react-app)
   </p>
   </details>
 
@@ -18,7 +18,7 @@
   <summary><code>Netlify</code></summary>
   <p>
 
-  [Set-up instructions for Netlify](netlify-with-cra)
+  [Set-up instructions for Netlify](netlify-with-create-react-app)
   </p>
 </details>
 
@@ -27,7 +27,7 @@
   <summary><code>Vercel</code></summary>
   <p>
 
-  [Set-up instructions for Vercel](vercel-with-next)
+  [Set-up instructions for Vercel](vercel-with-next-js)
   </p>
 </details>
 
