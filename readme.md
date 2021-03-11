@@ -119,8 +119,8 @@ export default async (req, res) => {
 ```
 
 ---
-
+<p align="center">
 <img src="./assets/cold-start-duration.png" width="340" />
 
-
 _-[Jignash Solanki, AWS Lambda Performance Tuning & Best Practices (2021)](https://www.simform.com/aws-lambda-performance/)_
+<p>
