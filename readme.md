@@ -1,23 +1,20 @@
-### AWS Lambdas: Easy, Easier, Easiest ###
+### AWS Lambdas: Easy, Easier, Easiest :electric_plug: ###
 
 “**When not to choose AWS** Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.” -**Swizec Teller**, ***AWS, Vercel, Netlify, or Firebase?*** ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
+![gif of selectiont](assets/ls.gif)
+Back in the day, AWS Lambda functions could be treacherous to configure (ie. for me, last year.) But Amazon's new Amplify CLI has dramatically simplified Lambda set-up, while cloud purveyors Netlify and Vercel offer aggressively simplified Lambda wrappers. This repo collects deployment instructions and tips for all three platforms. 
 
 ---
 
-### Helpful Explanations ###
+### Some Helpful Explanations 💬 ###
 
-<details closed>
-  <summary>
-  <p>
-  
 <code>**for SERVERLESS**</code>
 
 **“You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.”**
 -James Q. Quick, *Serverless Functions, Netlify vs Vercel, and the Jamstack* ([YouTube, Dec 10 2020](https://morioh.com/p/dc014b3356d2))
-
-[+]
-  </summary>
+<details closed>
+  <summary> [+] </summary>
 
   **“When serverless started, it was about making the lives of backend developers easier. As it’s progressing, we’re seeing more frontend focused teams using serverless to build APIs and access data that wasn’t easily accessible. Serverless is going mainstream.”**
   -Matt Biilmann, *Interview with Matt Biilmann, CEO and co-founder, Netlify* ([Jaxenter, Feb 16 2021)](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
@@ -42,20 +39,7 @@
 
 - - -
 
-<details>
-<summary><kbd>&nbsp;Database-as-a-Service 💭</kbd></summary>
-
-  <p>
-
-  [Set-up instructions for Vercel](vercel)
-  </p>
-</details>
-
-
-
-- - -
-
-### Checklists ###
+### Deployment Quickstarts ###
 
 <details open>
   <summary><code>Amplify</code></summary>
@@ -64,7 +48,7 @@
   [Set-up instructions for Amplify](amplify-with-create-react-app)
   </p>
   </details>
-
+<p>
 <details>
   <summary><code>Netlify</code></summary>
   <p>
@@ -73,7 +57,7 @@
   </p>
 </details>
 
-
+<p>
 <details>
   <summary><code>Vercel</code></summary>
   <p>
@@ -84,61 +68,16 @@
 
 - - -
 
+### Apache Cassandra™ ...*SERVERLESS?* ###
 
-*AWS Lambdas, with or without AWS*
+<details closed>
 
-* Because I've known AWS Lambdas to be tricky
-* Because I easily forget simple instructions
-* Because I need a place to keep my tricks
-* Because I need a place to save my tabs
-* Because I wanted to compare workflows side-by-side
+<summary>DataStax Astra Cassandra-as-a-Service 
+</summary>
 
-- - -
+  <p>
 
-*ANIMATION TEST*
+  [Set-up instructions for Astra](astra)
+  </p>
+</details>
 
-**GIF (432KB)**
-
-![gif of selectiont](assets/selection.gif)
-
-**WEBP (1.4MB)**
-
-![webp of selection](assets/selected.webp)
-
-
-**FFMPEG GIF (24KB)**
-
-![gif of selectiont](assets/ls.gif)
-
----
-
-### Specific Language Code ###
-
-
-```javascript
-const { createClient } = require("@astrajs/collections")
-
-export default async (req, res) => {
-  const { query: { name } } = req
-
-  const astraClient = await createClient({
-    astraDatabaseId: process.env.ASTRA_DB_ID,
-    astraDatabaseRegion: process.env.ASTRA_DB_REGION,
-    username: process.env.ASTRA_DB_USERNAME,
-    password: process.env.ASTRA_DB_PASSWORD,
-  })
-
-  const collection = astraClient
-    .namespace(process.env.ASTRA_DB_KEYSPACE)
-    .collection(name)
-
-  res.send(collection)
-}
-```
-
----
-<p align="center">
-<img src="./assets/cold-start-duration.png" width="340" />
-
-_-[Jignash Solanki, AWS Lambda Performance Tuning & Best Practices (2021)](https://www.simform.com/aws-lambda-performance/)_
-<p>
