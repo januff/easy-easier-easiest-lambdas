@@ -31,7 +31,7 @@
 </details>
 
 <details>
-<summary><a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Show all details</a>  </summary>
+<summary><kbd>&nbsp;Deep Thoughts 💭</kbd></summary>
 
   <p>
 
