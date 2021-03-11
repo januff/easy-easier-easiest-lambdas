@@ -1,45 +1,17 @@
-#### AWS Lambdas: Easy, Easier, Easiest ####
-
-
+### AWS Lambdas: Easy, Easier, Easiest ###
 
 “**When not to choose AWS** Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.” -**Swizec Teller**, ***AWS, Vercel, Netlify, or Firebase?*** ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
 
-- - -
-
-<details open>
-  <summary><code>Amplify</code></summary>
-  <p>
-
-  [Set-up instructions for Amplify](amplify-with-create-react-app)
-  </p>
-  </details>
-
-<details>
-  <summary><code>Netlify</code></summary>
-  <p>
-
-  [Set-up instructions for Netlify](netlify-with-create-react-app)
-  </p>
-</details>
-
-
-<details>
-  <summary><code>Vercel</code></summary>
-  <p>
-
-  [Set-up instructions for Vercel](vercel-with-next-js)
-  </p>
-</details>
-
 ---
+
+### Helpful Explanations ###
 
 <details closed>
   <summary>
-
-  ### A Few Good Explanations ### 
+  <p>
   
-  <code>**for SERVERLESS**</code>
+<code>**for SERVERLESS**</code>
 
 **“You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.”**
 -James Q. Quick, *Serverless Functions, Netlify vs Vercel, and the Jamstack* ([YouTube, Dec 10 2020](https://morioh.com/p/dc014b3356d2))
@@ -79,15 +51,39 @@
   </p>
 </details>
 
+
+
 - - -
 
-AWS Lambdas: 3 Ways to Deploy
+### Checklists ###
+
+<details open>
+  <summary><code>Amplify</code></summary>
+  <p>
+
+  [Set-up instructions for Amplify](amplify-with-create-react-app)
+  </p>
+  </details>
+
+<details>
+  <summary><code>Netlify</code></summary>
+  <p>
+
+  [Set-up instructions for Netlify](netlify-with-create-react-app)
+  </p>
+</details>
 
 
+<details>
+  <summary><code>Vercel</code></summary>
+  <p>
 
-- [ ] An uncompleted task
+  [Set-up instructions for Vercel](vercel-with-next-js)
+  </p>
+</details>
 
----
+- - -
+
 
 *AWS Lambdas, with or without AWS*
 
@@ -97,7 +93,7 @@ AWS Lambdas: 3 Ways to Deploy
 * Because I need a place to save my tabs
 * Because I wanted to compare workflows side-by-side
 
-
+- - -
 
 *ANIMATION TEST*
 
