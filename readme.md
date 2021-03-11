@@ -5,7 +5,7 @@
 - - -
 
 <details open>
-  <summary>:heart: Amplify</summary>
+  <summary><code>Amplify</code></summary>
   <p>
 
   [Set-up instructions for Amplify](amplify)
@@ -13,7 +13,7 @@
   </details>
 
 <details open>
-  <summary>Netlify</summary>
+  <summary><code>Netlify</code></summary>
   <p>
 
   [Set-up instructions for Netlify](netlify)
@@ -21,7 +21,7 @@
 </details>
 
 <details open>
-  <summary>Vercel</summary>
+  <summary><code>Vercel</code></summary>
   <p>
 
   [Set-up instructions for Vercel](vercel)
@@ -31,7 +31,7 @@
 - - -
 
 
-<kbd>Return</kbd>
+<kbd>&nbsp;Deep Thoughts :thought_balloon:</kbd>
 
 AWS Lambdas: 3 Ways to Deploy
 
