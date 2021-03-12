@@ -83,7 +83,7 @@ Back in the day, AWS Lambda setup could be treacherous (ie. for me, last year.) 
   ```
   [+]
   </summary>
-  
+
   [Set-up instructions for Netlify](netlify-with-create-react-app)
   </p>
 </details>
@@ -95,7 +95,7 @@ Back in the day, AWS Lambda setup could be treacherous (ie. for me, last year.) 
   <p>
 
   ```console
-  npx create-react-app vercel-with-next-js && cd $_
+  npx create-next-app
   ```
   [+]
   </summary>
