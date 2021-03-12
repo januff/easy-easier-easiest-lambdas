@@ -1,1 +1,0 @@
-*Amplify Functions*

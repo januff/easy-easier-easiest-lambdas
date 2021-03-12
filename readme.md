@@ -58,9 +58,9 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 ### Deployment Quickstarts ###
 
-<details closed>
+<details open>
   <summary><code>Amplify</code>
-  <p>
+  <p></p>
 
   ```console
   npx create-react-app amplify-with-create-react-app && cd $_
@@ -68,7 +68,9 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
   [+]
   </summary>
 
-  [Set-up instructions for Amplify](amplify-with-create-react-app)
+  <p></p>
+  <img src="assets/init-a.gif"/>
+
   </p>
 </details>
 
