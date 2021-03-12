@@ -2,7 +2,7 @@
 
 “**Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.**” -Swizec Teller, *AWS, Vercel, Netlify, or Firebase?* ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
-Back in the day, AWS Lambda setup could be treacherous (ie. for me, last year.) But now Amazon's Amplify CLI has vastly simplified Lambda configuration, while Netlify and Vercel offer painless Lambda wrappers. This repo collects deployment instructions and tips for all three platforms. (A [companion essay on _Medium_]() gets into my preferences.)
+Back in the day, AWS Lambda setup could be treacherous (ie. for me, last year.) But these days, Amazon's Amplify CLI has vastly simplified Lambda configuration, while Netlify and Vercel offer cruelty-free Lambda setup. This repo collects deployment instructions and tips for all three platforms. (A [companion essay on _Medium_]() gets into my preferences.)
 
 ---
 
@@ -43,7 +43,7 @@ Back in the day, AWS Lambda setup could be treacherous (ie. for me, last year.) 
 
 <details closed>
 
-<summary>DataStax Astra Cassandra-as-a-Service 
+<summary><code>DataStax Astra Cassandra-as-a-Service</code>
 </summary>
 
   <p>
@@ -58,26 +58,47 @@ Back in the day, AWS Lambda setup could be treacherous (ie. for me, last year.) 
 
 ### Deployment Quickstarts ###
 
-<details open>
-  <summary><code>Amplify</code></summary>
+<details closed>
+  <summary><code>Amplify</code>
   <p>
+
+  ```console
+  npx create-react-app amplify-with-create-react-app && cd $_
+  ```
+  [+]
+  </summary>
 
   [Set-up instructions for Amplify](amplify-with-create-react-app)
   </p>
-  </details>
+</details>
+
 <p>
+
 <details>
-  <summary><code>Netlify</code></summary>
+  <summary><code>Netlify</code>  
   <p>
 
+  ```console
+  npx create-react-app netlify-with-create-react-app && cd $_
+  ```
+  [+]
+  </summary>
+  
   [Set-up instructions for Netlify](netlify-with-create-react-app)
   </p>
 </details>
 
 <p>
+
 <details>
-  <summary><code>Vercel</code></summary>
+  <summary><code>Vercel</code>
   <p>
+
+  ```console
+  npx create-react-app vercel-with-next-js && cd $_
+  ```
+  [+]
+  </summary>
 
   [Set-up instructions for Vercel](vercel-with-next-js)
   </p>
