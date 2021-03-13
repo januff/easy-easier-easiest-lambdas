@@ -58,7 +58,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 ### Deployment Quickstarts ###
 
-<details open>
+<details closed>
   <summary><code>Amplify</code>
   <p></p>
 
