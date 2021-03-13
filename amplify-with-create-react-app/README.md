@@ -18,22 +18,29 @@
   </summary>
   
   <p></p>
-  <code>amplify init</code>
+  
+  ```console
+  amplify init
+  ```
+  
   <p></p>
 
   <img src="../assets/amplify-init.gif"/>
 
   <p></p>
-  <code>amplify add function</code>
+
+  ```console
+  amplify add function
+  ```
+
   <p></p>
 
   <p></p>
   <img src="../assets/amplify-add-function.gif"/>
 
-  <p></p>
-  <code>amplify mock function</code>
-  <p></p>
-
+ ```console
+ amplify mock function 
+ ```
 
   <p></p>
   <img src="../assets/amplify-mock-function.gif"/>
