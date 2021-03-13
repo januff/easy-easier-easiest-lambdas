@@ -1,1 +1,9 @@
-{}
+{
+  "function": {
+    "amplifyHelloWorld": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}

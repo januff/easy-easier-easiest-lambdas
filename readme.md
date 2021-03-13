@@ -68,10 +68,11 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
   [+]
   </summary>
 
-  <p></p>
-  <img src="assets/amplify-init.gif"/>
+  <p>
 
+  [Set-up instructions for Amplify](amplify-with-create-react-app)
   </p>
+
 </details>
 
 <p>
