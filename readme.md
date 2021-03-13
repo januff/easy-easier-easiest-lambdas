@@ -69,7 +69,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
   </summary>
 
   <p></p>
-  <img src="assets/init-a.gif"/>
+  <img src="assets/amplify-init.gif"/>
 
   </p>
 </details>
