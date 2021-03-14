@@ -98,50 +98,74 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 ### Deployment Quickstarts ###
 
 <details closed>
-  <summary><code>Amplify</code>
-  <p></p>
+<summary><code>Amplify</code>
+<p></p>
 
-  ```console
-  npx create-react-app amplify-with-create-react-app && cd $_
-  ```
-  [+]
-  </summary>
 
-  <p>
+```console
+npx create-react-app amplify-with-create-react-app && cd $_
+```
+[+]
 
-  [Set-up instructions for Amplify](amplify-with-create-react-app)
-  </p>
+<p></p>
+
+</summary>
+
+<p></p>
+
+
+[Set-up instructions for Amplify](amplify-with-create-react-app)
+
+
+<p></p>
+
+</details>
+
+
+<p></p>
+
+
+<details>
+<summary><code>Netlify</code>  
+<p></p>
+
+```console
+npx create-react-app netlify-with-create-react-app && cd $_
+```
+[+]
+
+<p></p>
+
+</summary>
+
+<p></p>
+
+[Set-up instructions for Netlify](netlify-with-create-react-app)
+
+
+<p></p>
+
 
 </details>
 
 <p>
 
 <details>
-  <summary><code>Netlify</code>  
-  <p>
+<summary><code>Vercel</code>
+<p></p>
 
-  ```console
-  npx create-react-app netlify-with-create-react-app && cd $_
-  ```
-  [+]
-  </summary>
 
-  [Set-up instructions for Netlify](netlify-with-create-react-app)
-  </p>
-</details>
+```console
+npx create-next-app
+```
+[+]
 
-<p>
+<p></p>
 
-<details>
-  <summary><code>Vercel</code>
-  <p>
+</summary>
 
-  ```console
-  npx create-next-app
-  ```
-  [+]
-  </summary>
+[Set-up instructions for Vercel](vercel-with-next-js)
 
-  [Set-up instructions for Vercel](vercel-with-next-js)
-  </p>
+<p></p>
+
 </details>
