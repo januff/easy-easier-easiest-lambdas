@@ -14,7 +14,10 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 -James Q. Quick, *Serverless Functions, Netlify vs Vercel, and the Jamstack* ([YouTube, Dec 10 2020](https://morioh.com/p/dc014b3356d2))
 
 <details closed>
+
 <summary> [+] </summary>
+
+
 <p></p>
 
 
@@ -34,17 +37,35 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 **“For static content, everything is prebuilt and cached. For dynamic content, companies build microservices that are loaded on demand and that can scale easily.”**
 -Romain Dillet, *Cloudflare is testing a Netlify competitor to host Jamstack sites* ([TechCrunch, Dec 7 2020](https://techcrunch.com/2020/12/07/cloudflare-is-testing-a-netlify-competitor-to-host-jamstack-sites/))
 
+
+<p></p>
+
+
 **“You effectively remove the performance tradeoff of serverless because static elements of the website are pre-rendered, and then a serverless backend is delivered either via APIs or right from the network edge in response to request/response logic.”**
 -Matt Biilmann, *Interview with Matt Biilmann, CEO and co-founder, Netlify* ([Jaxenter, Feb 16 2021)](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
 
 
+<p></p>
+
+
 <code>**for VERCEL**</code>
+
+
+<p></p>
+
 
 **“Unlike Netlify, Vercel simplifies its serverless function signature by only accepting requests and responses as parameters, which is achieved by wrapping the original AWS Lambda environment and simplifying it only for serving content purposes. Brilliant idea!”**
 -Emrah Samdan, *Why do companies invent their own serverless functions?* ([Thundra Blog, Jul 2020](https://blog.thundra.io/why-do-companies-invent-their-own-serverless-functions))
 
-</details>
+
 <p></p>
+
+
+</details>
+
+
+<p></p>
+
 
 ---
 
