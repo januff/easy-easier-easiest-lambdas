@@ -49,15 +49,9 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 **“Unlike Netlify, Vercel simplifies its serverless function signature by only accepting requests and responses as parameters, which is achieved by wrapping the original AWS Lambda environment and simplifying it only for serving content purposes. Brilliant idea!”**
 -Emrah Samdan, *Why do companies invent their own serverless functions?* ([Thundra Blog, Jul 2020](https://blog.thundra.io/why-do-companies-invent-their-own-serverless-functions))
 
-
 <p></p>
-
-
 </details>
-
-
 <p></p>
-
 
 ---
 
@@ -67,20 +61,16 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 <summary><code>DataStax Astra Cassandra-as-a-Service</code>
 </summary>
-
 <p>
 
-[Set-up instructions for Astra](astra)
 
+[Set-up instructions for Astra](astra)
 <p>
 </details>
 
-
 <p></p>
 
-
 ---
-
 
 ### Deployment Quickstarts ###
 
