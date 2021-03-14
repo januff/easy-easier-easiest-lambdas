@@ -3,7 +3,7 @@
 <p></p>
 
 <details open>
-  <summary><b>1. Project Init</b>
+  <summary><b>Project Init</b>
   <p>
 
   ```console
@@ -14,7 +14,7 @@
 </details>
 
 <details open>
-  <summary><b>2. Deploy Hello World</b>
+  <summary><b>1. Deploy Hello World</b>
   </summary>
   
   <p></p>
@@ -25,7 +25,7 @@
   
   <p></p>
 
-  <img src="../assets/amplify-init.gif"/>
+  <img style="border-radius: 10px" src="../assets/amplify-init.gif"/>
 
   <p></p>
 
@@ -35,14 +35,16 @@
 
   <p></p>
 
+
+  <img style="border-radius: 10px" src="../assets/amplify-add-function.gif"/>
+
   <p></p>
-  <img src="../assets/amplify-add-function.gif"/>
 
  ```console
- amplify mock function 
+ amplify mock function amplifyHelloWorld
  ```
 
   <p></p>
-  <img src="../assets/amplify-mock-function.gif"/>
+  <img style="border-radius: 10px" src="../assets/amplify-mock-function.gif"/>
 
 </details>
