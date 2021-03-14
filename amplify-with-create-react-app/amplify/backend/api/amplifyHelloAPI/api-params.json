@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/hello",
+            "lambdaFunction": "amplifyHelloWorld",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/hello"
+        }
+    ],
+    "resourceName": "amplifyHelloAPI",
+    "apiName": "amplifyHelloAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifyHelloWorld"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifywithcra-dev-161803-authRole",
+        "unAuthRoleName": "amplify-amplifywithcra-dev-161803-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifyHelloWorld",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
