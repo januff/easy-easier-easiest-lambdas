@@ -1,4 +1,4 @@
-### AWS Lambdas: Easy, Easier, Easiest  :fried_egg: ###
+### AWS Lambdas: Easy, Easier, Easiest 🍳 ###
 
 “**Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.**” -Swizec Teller, *AWS, Vercel, Netlify, or Firebase?* ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
