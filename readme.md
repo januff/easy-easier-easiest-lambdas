@@ -24,7 +24,9 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 <code>**for JAMSTACK**</code>
 
+
 <p></p>
+
 
 **“For static content, everything is prebuilt and cached. For dynamic content, companies build microservices that are loaded on demand and that can scale easily.”**
 -Romain Dillet, *Cloudflare is testing a Netlify competitor to host Jamstack sites* ([TechCrunch, Dec 7 2020](https://techcrunch.com/2020/12/07/cloudflare-is-testing-a-netlify-competitor-to-host-jamstack-sites/))
@@ -49,9 +51,15 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 **“Unlike Netlify, Vercel simplifies its serverless function signature by only accepting requests and responses as parameters, which is achieved by wrapping the original AWS Lambda environment and simplifying it only for serving content purposes. Brilliant idea!”**
 -Emrah Samdan, *Why do companies invent their own serverless functions?* ([Thundra Blog, Jul 2020](https://blog.thundra.io/why-do-companies-invent-their-own-serverless-functions))
 
+
 <p></p>
+
+
 </details>
+
+
 <p></p>
+
 
 ---
 
@@ -61,16 +69,20 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 <summary><code>DataStax Astra Cassandra-as-a-Service</code>
 </summary>
-<p>
-
-
-[Set-up instructions for Astra](astra)
-<p>
-</details>
 
 <p></p>
 
+[Set-up instructions for Astra](astra)
+
+<p></p>
+</details>
+
+
+<p></p>
+
+
 ---
+
 
 ### Deployment Quickstarts ###
 
