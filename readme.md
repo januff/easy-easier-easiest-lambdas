@@ -35,6 +35,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 -Emrah Samdan, *Why do companies invent their own serverless functions?* ([Thundra Blog, Jul 2020](https://blog.thundra.io/why-do-companies-invent-their-own-serverless-functions))
 
 </details>
+<p></p>
 
 ---
 
@@ -45,14 +46,15 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 <summary><code>DataStax Astra Cassandra-as-a-Service</code>
 </summary>
 
-  <p>
+<p></p>
 
-  [Set-up instructions for Astra](astra)
-  </p>
+[Set-up instructions for Astra](astra)
+
+<p></p>
 </details>
 
 
-
+<p></p>
 ---
 
 ### Deployment Quickstarts ###
