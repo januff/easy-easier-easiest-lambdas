@@ -20,7 +20,11 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 **“When serverless started, it was about making the lives of backend developers easier. As it’s progressing, we’re seeing more frontend focused teams using serverless to build APIs and access data that wasn’t easily accessible. Serverless is going mainstream.”**
 -Matt Biilmann, *Interview with Matt Biilmann, CEO and co-founder, Netlify* ([Jaxenter, Feb 16 2021)](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
 
+<p></p>
+
 <code>**for JAMSTACK**</code>
+
+<p></p>
 
 **“For static content, everything is prebuilt and cached. For dynamic content, companies build microservices that are loaded on demand and that can scale easily.”**
 -Romain Dillet, *Cloudflare is testing a Netlify competitor to host Jamstack sites* ([TechCrunch, Dec 7 2020](https://techcrunch.com/2020/12/07/cloudflare-is-testing-a-netlify-competitor-to-host-jamstack-sites/))
