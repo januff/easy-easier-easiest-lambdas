@@ -2,7 +2,7 @@
 
 “**Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.**” -Swizec Teller, *AWS, Vercel, Netlify, or Firebase?* ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
-Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg. for me, last year.) But these days, Amazon's Amplify CLI has vastly simplified Lambda configuration, while Netlify and Vercel offer near-effortless Lambda setup. This repo collects deployment instructions and tips for all three platforms. ([In this companion essay on _Medium_](), I explain my preferences.)
+Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg. for me, last year.) But today Amazon's Amplify CLI has vastly simplified Lambda configuration, while Netlify and Vercel offer near-effortless Lambda setup. This repo collects deployment instructions and tips for all three platforms. ([In this companion essay on _Medium_](), I explain my preferences.)
 
 ---
 
@@ -14,13 +14,11 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 -James Q. Quick, *Serverless Functions, Netlify vs Vercel, and the Jamstack* ([YouTube, Dec 10 2020](https://morioh.com/p/dc014b3356d2))
 
 <details closed>
-  <summary> [+] </summary>
+<summary> [+] </summary>
 <p>
 
-  **“When serverless started, it was about making the lives of backend developers easier. As it’s progressing, we’re seeing more frontend focused teams using serverless to build APIs and access data that wasn’t easily accessible. Serverless is going mainstream.”**
-  -Matt Biilmann, *Interview with Matt Biilmann, CEO and co-founder, Netlify* ([Jaxenter, Feb 16 2021)](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
-
-
+**“When serverless started, it was about making the lives of backend developers easier. As it’s progressing, we’re seeing more frontend focused teams using serverless to build APIs and access data that wasn’t easily accessible. Serverless is going mainstream.”**
+-Matt Biilmann, *Interview with Matt Biilmann, CEO and co-founder, Netlify* ([Jaxenter, Feb 16 2021)](https://jaxenter.com/biilmann-jamstack-interview-173821.html)
 
 <code>**for JAMSTACK**</code>
 
