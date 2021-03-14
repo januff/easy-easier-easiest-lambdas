@@ -68,11 +68,11 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 <summary><code>DataStax Astra Cassandra-as-a-Service</code>
 </summary>
 
-<p></p>
+<p>
 
 [Set-up instructions for Astra](astra)
 
-<p></p>
+<p>
 </details>
 
 
