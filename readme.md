@@ -65,16 +65,27 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 ### Apache Cassandra™ ...*SERVERLESS!* ###
 
+
+
 <details closed>
 
-<summary><code>DataStax Astra Cassandra-as-a-Service</code>
-</summary>
+
+
+<summary><code>DataStax Astra Cassandra-as-a-Service</code></summary>
+
 
 <p></p>
+
+
 
 [Set-up instructions for Astra](astra)
 
+
+
 <p></p>
+
+
+
 </details>
 
 
