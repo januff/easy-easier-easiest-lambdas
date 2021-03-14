@@ -8,7 +8,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 ### Some Helpful Explanations 💬 ###
 
-<code>**for SERVERLESS**</code>
+**for SERVERLESS**
 
 **“You can use Serverless Functions to solve (almost) any backend needs you have without deploying and maintaining a server yourself.”**
 -James Q. Quick, *Serverless Functions, Netlify vs Vercel, and the Jamstack* ([YouTube, Dec 10 2020](https://morioh.com/p/dc014b3356d2))
