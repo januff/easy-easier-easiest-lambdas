@@ -12,10 +12,12 @@
 
 <pre><code>npm i -g @aws-amplify/cli</code></pre>
 
+
 <p></p>
 
-<details open>
-  <summary><strong>1. Deploy Hello World</strong>
+
+<details closed>
+  <summary><strong>1. Log Hello World</strong>
   </summary>
 
   <p></p>
@@ -52,6 +54,20 @@
 
 
   <img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
+
+
+  <p></p>
+
+
+</details>
+
+
+<p></p>
+
+
+<details open>
+  <summary><strong>2. Deploy Hello World</strong>
+  </summary>
 
 
   <p></p>
