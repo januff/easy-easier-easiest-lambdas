@@ -1,12 +1,8 @@
 #### AWS Lambdas: Amplify CLI With Create React App  ####
 
-
 <p></p>
 
-
-<details open>
-<summary><b>Project Init</b>
-
+#### Project Init ####
 
 <p></p>
 
@@ -17,8 +13,6 @@ npx create-react-app amplify-with-create-react-app && cd $_
 
 
 <p></p>
-</summary>
-
 
 ```
 npm i -g @aws-amplify/cli
@@ -31,7 +25,7 @@ npm i -g @aws-amplify/cli
 </details>
 
 <details open>
-<summary><b>1. Deploy Hello World</b>
+<summary><strong>1. Deploy Hello World</strong>
 </summary>
 
 <p></p>
@@ -78,5 +72,6 @@ amplify add api
 
 
 <img style="border-radius:10px" src="../assets/amplify-add-api.gif"/>
+
 
 </details>
