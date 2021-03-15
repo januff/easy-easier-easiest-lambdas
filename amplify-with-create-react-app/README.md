@@ -1,63 +1,82 @@
 #### AWS Lambdas: Amplify CLI With Create React App  ####
 
+
 <p></p>
 
+
 <details open>
-  <summary><b>Project Init</b>
-  <p>
+<summary><b>Project Init</b>
 
-  ```console
-  npx create-react-app amplify-with-create-react-app && cd $_
-  ```
-  <p>
-  </summary>
 
-  ```console
-  npm i -g @aws-amplify/cli
+<p></p>
+
+
+```console
+npx create-react-app amplify-with-create-react-app && cd $_
   ```
-  <p>
+
+
+<p></p>
+</summary>
+
+
+```zsh
+npm i -g @aws-amplify/cli
+```
+
+
+<p></p>
+
 
 </details>
 
 <details open>
-  <summary><b>1. Deploy Hello World</b>
-  </summary>
-  
-  <p></p>
-  
-  ```console
-  amplify init
-  ```
-  
-  <p>
+<summary><b>1. Deploy Hello World</b>
+</summary>
 
-  <img style="border-radius:10px" src="../assets/amplify-init.gif"/>
+<p></p>
 
-  <p>
+```console
+amplify init
+```
 
-  ```console
-  amplify add function
-  ```
+<p>
 
-  <p>
+<img style="border-radius:10px" src="../assets/amplify-init.gif"/>
 
-  <img style="border-radius:10px" src="../assets/amplify-add-function.gif"/>
 
-  <p>
+<p></p>
 
- ```console
- amplify mock function amplifyHelloWorld
- ```
 
-  <p>
+```zsh
+amplify add function
+```
 
-  <img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
+<p></p>
 
- ```console
- amplify add api
- ```
 
-  <p>
-  <img style="border-radius:10px" src="../assets/amplify-add-api.gif"/>
+<img style="border-radius:10px" src="../assets/amplify-add-function.gif"/>
+
+
+<p></p>
+
+```console
+amplify mock function amplifyHelloWorld
+```
+
+<p></p>
+
+
+<img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
+
+
+```console
+amplify add api
+```
+
+<p></p>
+
+
+<img style="border-radius:10px" src="../assets/amplify-add-api.gif"/>
 
 </details>
