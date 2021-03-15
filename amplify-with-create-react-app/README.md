@@ -34,6 +34,7 @@
 
   <pre><code>amplify add function</code></pre>
 
+
   <p></p>
 
 
@@ -42,15 +43,21 @@
 
   <p></p>
 
+  
   <pre><code>amplify mock function amplifyHelloWorld</code></pre>
 
+  
   <p></p>
 
 
   <img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
 
 
+  <p></p>
+
+
   <pre><code>amplify add api</code></pre>
+
 
   <p></p>
 
