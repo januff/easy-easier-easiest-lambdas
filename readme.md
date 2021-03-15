@@ -71,7 +71,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 
 
-<summary><code>DataStax Astra Cassandra-as-a-Service</code></summary>
+<summary><code><strong>DataStax Astra Cassandra-as-a-Service</strong></code></summary>
 
 
 <p></p>
@@ -98,7 +98,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 ### Deployment Quickstarts ###
 
 <details closed>
-<summary><code>Amplify</code>
+<summary><code><strong>Amplify</strong></code>
 <p></p>
 
 
@@ -124,7 +124,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 
 <details>
-<summary><code>Netlify</code>  
+<summary><code><strong>Netlify</strong></code>  
 <p></p>
 
 <pre><code>npx create-react-app netlify-with-create-react-app && cd $_</code></pre>
@@ -148,7 +148,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 <p>
 
 <details>
-<summary><code>Vercel</code>
+<summary><code><strong>Vercel</strong></code>
 <p></p>
 
 
