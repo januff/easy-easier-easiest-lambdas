@@ -33,7 +33,7 @@ npm i -g @aws-amplify/cli
   amplify init
   ``
 
-  <p>
+  <p></p>
 
   <img style="border-radius:10px" src="../assets/amplify-init.gif"/>
 
