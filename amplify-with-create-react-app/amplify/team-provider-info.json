@@ -10,6 +10,14 @@
       "StackName": "amplify-amplifywithcra-dev-161803",
       "StackId": "arn:aws:cloudformation:us-east-1:124266852111:stack/amplify-amplifywithcra-dev-161803/ced89890-8391-11eb-a959-12fa7ddfd8bd",
       "AmplifyAppId": "d5j8svrgr6m0i"
+    },
+    "categories": {
+      "function": {
+        "amplifyHelloWorld": {
+          "deploymentBucketName": "amplify-amplifywithcra-dev-161803-deployment",
+          "s3Key": "amplify-builds/amplifyHelloWorld-3053736d7a5055623074-build.zip"
+        }
+      }
     }
   }
 }

@@ -23,6 +23,7 @@
 
   <pre><code>amplify init</code></pre>
 
+
   <p></p>
 
 
@@ -66,6 +67,21 @@
 
 
   <p></p>
+
+  
+  <pre><code>amplify push</code></pre>
+
+
+  <p></p>
+
+
+  <img style="border-radius:10px" src="../assets/amplify-push.gif"/>
+
+
+  <p></p>
+
+
+  <img style="border-radius:10px" src="../assets/amplify-hello.png"/>
 
 
 </details>
