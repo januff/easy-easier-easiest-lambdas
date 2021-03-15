@@ -6,21 +6,13 @@
 
 <p></p>
 
-
-```
-npx create-react-app amplify-with-create-react-app && cd $_
-  ```
-
+<pre></code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
 
 <p></p>
 
-```
-npm i -g @aws-amplify/cli
-```
-
+<pre><code>npm i -g @aws-amplify/cli</code></pre>
 
 <p></p>
-
 
 <details open>
   <summary><strong>1. Deploy Hello World</strong>
@@ -29,12 +21,10 @@ npm i -g @aws-amplify/cli
   <p></p>
 
 
-  ``
-  amplify init
-  ``
+  <pre><code>amplify init</code></pre>
 
   <p></p>
-  
+
 
   <img style="border-radius:10px" src="../assets/amplify-init.gif"/>
 
@@ -42,9 +32,7 @@ npm i -g @aws-amplify/cli
   <p></p>
 
 
-  ```
-  amplify add function
-  ```
+  <pre><code>amplify add function</code></pre>
 
   <p></p>
 
@@ -54,9 +42,7 @@ npm i -g @aws-amplify/cli
 
   <p></p>
 
-  ```
-  amplify mock function amplifyHelloWorld
-  ```
+  <pre><code>amplify mock function amplifyHelloWorld</code></pre>
 
   <p></p>
 
@@ -64,9 +50,7 @@ npm i -g @aws-amplify/cli
   <img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
 
 
-  ```
-  amplify add api
-  ```
+  <pre><code>amplify add api</code></pre>
 
   <p></p>
 
