@@ -2,7 +2,7 @@
 
 <strong>“Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.”</strong> -Swizec Teller, *AWS, Vercel, Netlify, or Firebase?* ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
-Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg. for me, last year.) But nowadays Amazon's <code><strong>Amplify CLI</strong></code> has vastly simplified Lambda configuration, while <code><strong>Netlify</strong></code> and <code><strong>Vercel</strong></code> offer workflows that make Lambda setup even simpler. This repo collects deployment instructions and tips for all three platforms. ([In this companion essay on _Medium_](), I explain my preferences.)
+Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg. for me, last year.) But nowadays Amazon's <code><strong>Amplify CLI</strong></code> has vastly simplified Lambda configuration, while <code><strong>Netlify</strong></code> and <code><strong>Vercel</strong></code> offer workflows that make Lambda setup even simpler. This repo collects deployment instructions and tips for all three platforms. (In a [companion essay on _Medium_](), I evaluate them for my comics translation app.)
 
 ---
 
@@ -59,7 +59,6 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 <p></p>
 
-
 </details>
 
 
@@ -70,7 +69,9 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 ### Apache Cassandra™ ...*SERVERLESS!* ###
 
+The library installed in the packages and authentication sections is DataStax's <a href="https://www.npmjs.com/package/@astrajs/collections">@astra/collections package</a>, which we'll use to connect to a serverless Cassandra NoSQL database.
 
+<p></p>
 
 <details closed>
 
