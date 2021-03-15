@@ -22,56 +22,57 @@ npm i -g @aws-amplify/cli
 <p></p>
 
 
-</details>
-
 <details open>
-<summary><strong>1. Deploy Hello World</strong>
-</summary>
+  <summary><strong>1. Deploy Hello World</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-```
-amplify init
-```
+  ```
+  amplify init
+  ```
 
-<p>
+  <p>
 
-<img style="border-radius:10px" src="../assets/amplify-init.gif"/>
-
-
-<p></p>
+  <img style="border-radius:10px" src="../assets/amplify-init.gif"/>
 
 
-```
-amplify add function
-```
-
-<p></p>
+  <p></p>
 
 
-<img style="border-radius:10px" src="../assets/amplify-add-function.gif"/>
+  ```
+  amplify add function
+  ```
+
+  <p></p>
 
 
-<p></p>
-
-```
-amplify mock function amplifyHelloWorld
-```
-
-<p></p>
+  <img style="border-radius:10px" src="../assets/amplify-add-function.gif"/>
 
 
-<img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
+  <p></p>
+
+  ```
+  amplify mock function amplifyHelloWorld
+  ```
+
+  <p></p>
 
 
-```
-amplify add api
-```
-
-<p></p>
+  <img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
 
 
-<img style="border-radius:10px" src="../assets/amplify-add-api.gif"/>
+  ```
+  amplify add api
+  ```
+
+  <p></p>
+
+
+  <img style="border-radius:10px" src="../assets/amplify-add-api.gif"/>
+
+
+  <p></p>
 
 
 </details>
