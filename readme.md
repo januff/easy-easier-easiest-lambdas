@@ -102,9 +102,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 <p></p>
 
 
-```console
-npx create-react-app amplify-with-create-react-app && cd $_
-```
+<pre><code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
 [+]
 
 <p></p>
@@ -129,9 +127,8 @@ npx create-react-app amplify-with-create-react-app && cd $_
 <summary><code>Netlify</code>  
 <p></p>
 
-```console
-npx create-react-app netlify-with-create-react-app && cd $_
-```
+<pre><code>npx create-react-app netlify-with-create-react-app && cd $_</code></pre>
+
 [+]
 
 <p></p>
@@ -155,9 +152,8 @@ npx create-react-app netlify-with-create-react-app && cd $_
 <p></p>
 
 
-```console
-npx create-next-app
-```
+<pre><code>npx create-next-app</code></pre>
+
 [+]
 
 <p></p>
