@@ -6,7 +6,7 @@
 
 <p></p>
 
-<pre></code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
+<pre><code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
 
 <p></p>
 
