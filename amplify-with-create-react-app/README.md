@@ -28,9 +28,10 @@ npm i -g @aws-amplify/cli
 
   <p></p>
 
-  ```
+
+  ``
   amplify init
-  ```
+  ``
 
   <p>
 
