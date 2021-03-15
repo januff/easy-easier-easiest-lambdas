@@ -114,7 +114,7 @@ npx create-react-app amplify-with-create-react-app && cd $_
 <p></p>
 
 
-<a href="../amplify-with-create-react-app">Set-up instructions for Amplify</a>
+<a href="amplify-with-create-react-app">Set-up instructions for Amplify</a>
 
 
 <p></p>
