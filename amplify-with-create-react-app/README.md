@@ -66,38 +66,114 @@
 
 
 <details open>
-  <summary><strong>2. Deploy Hello World</strong>
-  </summary>
+<summary><strong>2. Deploy Hello World</strong>
+</summary>
 
 
-  <p></p>
+<p></p>
 
 
-  <pre><code>amplify add api</code></pre>
+<pre><code>amplify add api</code></pre>
 
 
-  <p></p>
+<p></p>
 
 
-  <img style="border-radius:10px" src="../assets/amplify-add-api.gif"/>
+<img style="border-radius:10px" src="../assets/amplify-add-api.gif"/>
 
 
-  <p></p>
-
-  
-  <pre><code>amplify push</code></pre>
+<p></p>
 
 
-  <p></p>
+<pre><code>amplify push</code></pre>
 
 
-  <img style="border-radius:10px" src="../assets/amplify-push.gif"/>
+<p></p>
 
 
-  <p></p>
+<img style="border-radius:10px" src="../assets/amplify-push.gif"/>
 
 
-  <img style="border-radius:10px" src="../assets/amplify-hello.png"/>
+<p></p>
 
+
+<img style="border-radius:10px" src="../assets/amplify-hello.png"/>
+
+
+</details>
+
+<p></p>
+
+
+<details closed>
+<summary><strong>3. Pass URL Params</strong>
+</summary>
+
+<p></p>
+
+<em>Details in progress.</em>
+
+<p></p>
+
+</details>
+
+
+<p></p>
+
+
+<details closed>
+<summary><strong>4. Install NPM Packages</strong>
+</summary>
+
+<p></p>
+
+<em>Details in progress.</em>
+
+<p></p>
+
+</details>
+
+<p></p>
+
+
+<details closed>
+<summary><strong>5. Set Env Values</strong>
+</summary>
+
+<p></p>
+
+<em>Details in progress.</em>
+
+<p></p>
+
+</details>
+
+<p></p>
+
+
+<details closed>
+<summary><strong>6. Test Token</strong>
+</summary>
+
+<p></p>
+
+<em>Details in progress.</em>
+
+<p></p>
+
+</details>
+
+<p></p>
+
+
+<details closed>
+<summary><strong>7. Deploy Authenticated</strong>
+</summary>
+
+<p></p>
+
+<em>Details in progress.</em>
+
+<p></p>
 
 </details>
