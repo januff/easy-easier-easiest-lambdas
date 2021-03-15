@@ -11,7 +11,7 @@
 <p></p>
 
 
-```console
+```
 npx create-react-app amplify-with-create-react-app && cd $_
   ```
 
@@ -20,7 +20,7 @@ npx create-react-app amplify-with-create-react-app && cd $_
 </summary>
 
 
-```zsh
+```
 npm i -g @aws-amplify/cli
 ```
 
@@ -36,7 +36,7 @@ npm i -g @aws-amplify/cli
 
 <p></p>
 
-```console
+```
 amplify init
 ```
 
@@ -48,7 +48,7 @@ amplify init
 <p></p>
 
 
-```zsh
+```
 amplify add function
 ```
 
@@ -60,7 +60,7 @@ amplify add function
 
 <p></p>
 
-```console
+```
 amplify mock function amplifyHelloWorld
 ```
 
@@ -70,7 +70,7 @@ amplify mock function amplifyHelloWorld
 <img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
 
 
-```console
+```
 amplify add api
 ```
 
