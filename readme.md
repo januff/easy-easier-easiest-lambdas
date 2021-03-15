@@ -78,7 +78,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 
 
-<a href="../astra">Set-up instructions for Astra</a>
+<a href="astra">Set-up instructions for Astra</a>
 
 
 
@@ -140,7 +140,7 @@ npx create-react-app netlify-with-create-react-app && cd $_
 
 <p></p>
 
-[Set-up instructions for Netlify](netlify-with-create-react-app)
+<a href="netlify-with-create-react-app">Set-up instructions for Netlify</a>
 
 
 <p></p>
@@ -164,7 +164,7 @@ npx create-next-app
 
 </summary>
 
-[Set-up instructions for Vercel](vercel-with-next-js)
+<a href="vercel-with-next-js">Set-up instructions for Vercel</a>
 
 <p></p>
 
