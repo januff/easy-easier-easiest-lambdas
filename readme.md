@@ -69,7 +69,7 @@ Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg
 
 ### Apache Cassandra™ ...*SERVERLESS!* ###
 
-The library installed in the packages and authentication sections is DataStax's <a href="https://www.npmjs.com/package/@astrajs/collections">@astra/collections package</a>, which I'm using to connect to a Cassandra NoSQL database, newly accessible as a fully serverless resource.
+The package used in the installation and authentication sections is DataStax's <a href="https://www.npmjs.com/package/@astrajs/collections">@astra/collections JavaScript library</a>, which I'm using to connect to a Cassandra NoSQL database, newly accessible as a fully serverless resource.
 
 <p></p>
 
