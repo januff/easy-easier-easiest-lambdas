@@ -165,7 +165,7 @@ The package used in the installation and authentication sections is DataStax's <
 <p></p>
 
 
-<pre><code>npx create-next-app</code></pre>
+<pre><code>npx create-next-app vercel-with-next-js</code></pre>
 
 
 <p></p>
