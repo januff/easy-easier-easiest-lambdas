@@ -2,7 +2,7 @@
 
 <strong>“Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.”</strong> -Swizec Teller, *AWS, Vercel, Netlify, or Firebase?* ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
-Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg. for me, last year.) But nowadays Amazon's <code><strong>Amplify CLI</strong></code> has vastly simplified Lambda configuration, while <code><strong>Netlify</strong></code> and <code><strong>Vercel</strong></code> offer workflows that make Lambda setup even simpler. This repo collects deployment instructions and tips for all three platforms. (In a [companion essay on _Medium_](), I assess them for my comic book translation app.)
+Back in the day, AWS Lambdas (ie. serverless functions) could be treacherous (eg. for me, last year.) But nowadays Amazon's <code><strong>Amplify CLI</strong></code> has vastly simplified Lambda configuration, while <code><strong>Netlify</strong></code> and <code><strong>Vercel</strong></code> offer workflows that make Lambda setup even simpler. This repo collects deployment instructions and tips for all three platforms. (In a [companion essay on _Medium_](), I assess each for my comic book translation app.)
 
 ---
 
