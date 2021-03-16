@@ -105,15 +105,17 @@ The library installed in the packages and authentication sections is DataStax's 
 
 <details closed>
 <summary><code><strong>Amplify CLI</strong></code>
-<p></p>
-
-
-<pre><code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
-[+]
 
 <p></p>
 
 </summary>
+
+
+<p></p>
+
+
+<pre><code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
+
 
 <p></p>
 
@@ -133,13 +135,13 @@ The library installed in the packages and authentication sections is DataStax's 
 <summary><code><strong>Netlify</strong></code>  
 <p></p>
 
-<pre><code>npx create-react-app netlify-with-create-react-app && cd $_</code></pre>
-
-[+]
+</summary>
 
 <p></p>
 
-</summary>
+
+<pre><code>npx create-react-app netlify-with-create-react-app && cd $_</code></pre>
+
 
 <p></p>
 
@@ -157,14 +159,17 @@ The library installed in the packages and authentication sections is DataStax's 
 <summary><code><strong>Vercel</strong></code>
 <p></p>
 
+</summary>
 
-<pre><code>npx create-next-app</code></pre>
-
-[+]
 
 <p></p>
 
-</summary>
+
+<pre><code>npx create-next-app</code></pre>
+
+
+<p></p>
+
 
 <a href="vercel-with-next-js">Set-up instructions for Vercel</a>
 
