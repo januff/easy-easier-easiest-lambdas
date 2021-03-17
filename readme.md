@@ -103,7 +103,7 @@ The package used in the installation and authentication sections is DataStax's <
 
 ### Deployment Quickstarts ⏲️ ###
 
-<details closed>
+<details open>
 <summary><code><strong>Amplify CLI</strong></code>
 
 <p></p>
@@ -113,15 +113,17 @@ The package used in the installation and authentication sections is DataStax's <
 
 <p></p>
 
-
-<pre><code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
-
+<table>
+  <thead>
+    <tr><th>
+      📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/function">Functions Overview</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
 
-
-<a href="amplify-with-create-react-app">Set-up instructions for Amplify</a>
-
+<a href="amplify-with-create-react-app">📓 My Amplify deployment checklist</a>
 
 <p></p>
 
@@ -131,7 +133,7 @@ The package used in the installation and authentication sections is DataStax's <
 <p></p>
 
 
-<details>
+<details open>
 <summary><code><strong>Netlify</strong></code>  
 <p></p>
 
@@ -139,13 +141,17 @@ The package used in the installation and authentication sections is DataStax's <
 
 <p></p>
 
-
-<pre><code>npx create-react-app netlify-with-create-react-app && cd $_</code></pre>
-
+<table>
+  <thead>
+    <tr><th>
+      📖 Netlify Docs: <a href="https://www.netlify.com/products/functions/">Netlify Functions</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
 
-<a href="netlify-with-create-react-app">Set-up instructions for Netlify</a>
+<a href="netlify-with-create-react-app">📓 My Netlify deployment checklist</a>
 
 
 <p></p>
@@ -155,7 +161,7 @@ The package used in the installation and authentication sections is DataStax's <
 
 <p>
 
-<details>
+<details open>
 <summary><code><strong>Vercel</strong></code>
 <p></p>
 
@@ -164,14 +170,19 @@ The package used in the installation and authentication sections is DataStax's <
 
 <p></p>
 
-
-<pre><code>npx create-next-app vercel-with-next-js && cd $_</code></pre>
+<table>
+  <thead>
+    <tr><th>
+      📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Serverless Functions</a>
+    </th></tr>
+  </thead>
+</table>
 
 
 <p></p>
 
 
-<a href="vercel-with-next-js">Set-up instructions for Vercel</a>
+<a href="vercel-with-next-js">📓 My Vercel deployment checklist</a>
 
 <p></p>
 

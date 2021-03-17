@@ -35,7 +35,7 @@
 <table>
   <thead>
     <tr><th>
-      📖 Vercel Docs: <a href="https://nextjs.org/docs/api-routes/introduction">API Routes</a>
+      📖 Next.js Docs: <a href="https://nextjs.org/docs/api-routes/introduction">API Routes</a>
     </th></tr>
   </thead>
 </table>
@@ -116,6 +116,16 @@
 <table>
   <thead>
     <tr><th>
+      📖 Next.js Docs: <a href="https://nextjs.org/docs/basic-features/environment-variables">Environmental Variables</a>
+    </th></tr>
+  </thead>
+</table>
+
+<p></p>
+
+<table>
+  <thead>
+    <tr><th>
       📖 Vercel Docs: <a href="https://vercel.com/docs/environment-variables">Environmental Variables</a>
     </th></tr>
   </thead>
@@ -129,7 +139,7 @@
 
 
 <details closed>
-<summary><strong>6. Test Token</strong>
+<summary><strong>6. Test Authentication</strong>
 </summary>
 
 <p></p>
