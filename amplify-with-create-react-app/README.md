@@ -51,6 +51,8 @@
 
   | :warning:  _“Template format error: Resource name is non alphanumeric.”_ |
   |-----------------------------------------|
+  | All names must be lowercase or camelCase. |
+
 
   <p></p>
 
@@ -112,7 +114,8 @@
 
   | :warning:  &nbsp; _{ "message:" : "Missing Authentication Token"}_   |
   |-----------------------------------------|
-
+  | Don't forget to add your route segment to url! | 
+ 
   <p></p>
 
 
