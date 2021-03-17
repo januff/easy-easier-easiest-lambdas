@@ -16,7 +16,7 @@
 <p></p>
 
 
-<details closed>
+<details open>
   <summary><strong>1. Log Hello World</strong>
   </summary>
 
@@ -42,6 +42,13 @@
 
 
   <img style="border-radius:10px" src="../assets/amplify-add-function.gif"/>
+
+
+  <p><p>
+
+  <ul>
+    <li style="list-style-type: '⚠️  ';background-color:lightCoral;border-radius:6px;padding-left:8px"><em>“Template format error: Resource name is non alphanumeric.”</em></li>
+  </ul>
 
 
   <p></p>
@@ -99,6 +106,12 @@
 
 <img style="border-radius:10px" src="../assets/amplify-hello.png"/>
 
+
+  <p><p>
+
+  <ul>
+    <li style="list-style-type: '⚠️  ';background-color:lightCoral;border-radius:6px;padding-left:8px"><em>{"message:" : "Missing Authentication Token"}</em></li>
+  </ul>
 
 </details>
 
