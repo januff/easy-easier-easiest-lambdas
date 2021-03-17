@@ -22,6 +22,16 @@
 
   <p></p>
 
+  <table>
+    <thead>
+      <tr><th>
+        📖 Amplify Docs: <a target=”_blank” href="https://docs.amplify.aws/cli/start/workflows">Initialize new project</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
 
   <pre><code>amplify init</code></pre>
 
@@ -51,7 +61,7 @@
   <table>
     <thead>
       <tr><th>
-        ⚠️ “Template format error: Resource name is non alphanumeric.”
+        ⚠️ Template format error: Resource name is non alphanumeric.
       </th></tr>
     </thead>
     <tbody>
@@ -87,6 +97,16 @@
   <summary><strong>2. Deploy Hello World</strong>
   </summary>
 
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Amplify Docs: <a target=”_blank” href="https://docs.amplify.aws/cli/restapi#create-a-rest-api">Create a REST API</a>
+      </th></tr>
+    </thead>
+  </table>
 
   <p></p>
 
