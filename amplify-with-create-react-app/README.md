@@ -25,7 +25,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Amplify Docs: <a target=”_blank” href="https://docs.amplify.aws/cli/start/workflows">Initialize new project</a>
+        📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/start/workflows">Initialize new project</a>
       </th></tr>
     </thead>
   </table>
@@ -103,7 +103,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Amplify Docs: <a target=”_blank” href="https://docs.amplify.aws/cli/restapi#create-a-rest-api">Create a REST API</a>
+        📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/restapi#create-a-rest-api">Create a REST API</a>
       </th></tr>
     </thead>
   </table>
