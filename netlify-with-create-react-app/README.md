@@ -23,10 +23,18 @@
 <p></p>
 
 
-| :warning:  _Something is already running on port 3000._ |
-|-----------------------------------------|
-| <code>killall node</code> |
-
+<table>
+  <thead>
+    <tr><th>
+      ⚠️ Something is already running on port 3000.
+    </th></tr>
+  </thead>
+  <tbody>
+    <tr><td>
+      <code>killall node</code> 
+    </td></tr>
+  </tbody>
+</table>
 
 
 <em>Details in progress.</em>
@@ -122,12 +130,18 @@
 <p></p>
 
 
-
-| :warning:  _TimeoutError: Task timed out after 10.00 seconds_ |
-|-----------------------------------------|
-| Split your function or use async. |
-
-
+<table>
+  <thead>
+    <tr><th>
+      ⚠️ TimeoutError: Task timed out after 10.00 seconds
+    </th></tr>
+  </thead>
+  <tbody>
+    <tr><td>
+      Split your function or use async. 
+    </td></tr>
+  </tbody>
+</table>
 
 
 <em>Details in progress.</em>
