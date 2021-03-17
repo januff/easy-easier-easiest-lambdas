@@ -17,53 +17,53 @@
 
 
 <details open>
-  <summary><strong>1. Log Hello World</strong>
-  </summary>
+<summary><strong>1. Log Hello World</strong>
+</summary>
 
-  <p></p>
-
-
-  <pre><code>amplify init</code></pre>
+<p></p>
 
 
-  <p></p>
+<pre><code>amplify init</code></pre>
 
 
-  <img style="border-radius:10px" src="../assets/amplify-init.gif"/>
+<p></p>
 
 
-  <p></p>
+<img style="border-radius:10px" src="../assets/amplify-init.gif"/>
 
 
-  <pre><code>amplify add function</code></pre>
+<p></p>
 
 
-  <p></p>
+<pre><code>amplify add function</code></pre>
 
 
-  <img style="border-radius:10px" src="../assets/amplify-add-function.gif"/>
+<p></p>
 
 
-  <p><p>
-
-  <ul>
-    <li style="list-style-type: '⚠️  ';background-color:lightCoral;border-radius:6px;padding-left:8px"><em>“Template format error: Resource name is non alphanumeric.”</em></li>
-  </ul>
+<img style="border-radius:10px" src="../assets/amplify-add-function.gif"/>
 
 
-  <p></p>
+<p><p>
 
-  
-  <pre><code>amplify mock function amplifyHelloWorld</code></pre>
-
-  
-  <p></p>
+<ul>
+  <li style="list-style-type: '⚠️  ';background-color:lightCoral;border-radius:6px;padding-left:10px;max-width:360px"><em>“Template format error: Resource name is non alphanumeric.”</em></li>
+</ul>
 
 
-  <img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
+<p></p>
 
 
-  <p></p>
+<pre><code>amplify mock function amplifyHelloWorld</code></pre>
+
+
+<p></p>
+
+
+<img style="border-radius:10px" src="../assets/amplify-mock-function.gif"/>
+
+
+<p></p>
 
 
 </details>
@@ -107,11 +107,15 @@
 <img style="border-radius:10px" src="../assets/amplify-hello.png"/>
 
 
-  <p><p>
+<p><p>
 
-  <ul>
-    <li style="list-style-type: '⚠️  ';background-color:lightCoral;border-radius:6px;padding-left:8px"><em>{"message:" : "Missing Authentication Token"}</em></li>
-  </ul>
+<ul>
+  <li style="list-style-type: '⚠️  ';background-color:lightCoral;border-radius:6px;padding-left:10px;max-width:360px"><em>{"message:" : "Missing Authentication Token"}</em></li>
+</ul>
+
+
+<p></p>
+
 
 </details>
 
