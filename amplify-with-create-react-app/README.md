@@ -47,7 +47,7 @@
   <p><p>
 
   <ul>
-    <li style="list-style-type: ':warning:  ';background-color:lightCoral;border-radius:6px;padding-left:10px;max-width:360px"><em>“Template format error: Resource name is non alphanumeric.”</em></li>
+    <li style="list-style-type: '💣  ';background-color:lightCoral;border-radius:6px;padding-left:10px;max-width:360px"><em>“Template format error: Resource name is non alphanumeric.”</em></li>
   </ul>
 
 
@@ -110,8 +110,11 @@
   <p><p>
 
   <ul>
-    <li style="list-style-type: ':warning:  ';background-color:lightCoral;border-radius:6px;padding-left:10px;max-width:360px"><em>{"message:" : "Missing Authentication Token"}</em></li>
+    <li style="list-style-type: '💣  ';background-color:lightCoral;border-radius:6px;padding-left:10px;max-width:360px"><em>{"message:" : "Missing Authentication Token"}</em></li>
   </ul>
+
+
+  <p></p>
 
 
 </details>
