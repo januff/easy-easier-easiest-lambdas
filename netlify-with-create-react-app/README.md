@@ -16,11 +16,15 @@
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>1. Log Hello World</strong>
 </summary>
 
 <p></p>
+
+  | :warning:  _Something is already running on port 3000._ |
+  |-----------------------------------------|
+  | <code>killall node</code> |
 
 <em>Details in progress.</em>
 
@@ -108,11 +112,16 @@
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>7. Deploy Authenticated</strong>
 </summary>
 
 <p></p>
+
+  | :warning:  _TimeoutError: Task timed out after 10.00 seconds_ |
+  |-----------------------------------------|
+  | Split your function or use async. |
+
 
 <em>Details in progress.</em>
 
