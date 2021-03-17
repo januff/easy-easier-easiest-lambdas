@@ -6,6 +6,16 @@
 
 <p></p>
 
+<table>
+  <thead>
+    <tr><th>
+      📖 Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#installation">Installation</a>
+    </th></tr>
+  </thead>
+</table>
+
+<p></p>
+
 <pre><code>npx create-react-app netlify-with-create-react-app && cd $_</code></pre>
 
 <p></p>
@@ -22,6 +32,35 @@
 
 <p></p>
 
+<table>
+  <thead>
+    <tr><th>
+      📖 Netlify Docs: <a href="https://docs.netlify.com/functions/build-with-javascript/">Build serverless functions with JavaScript</a>
+    </th></tr>
+  </thead>
+</table>
+
+<p></p>
+
+<table>
+  <thead>
+    <tr><th>
+      📖 Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#get-started-with-netlify-dev">Get started with Netlify Dev</a>
+    </th></tr>
+  </thead>
+</table>
+
+<p></p>
+
+<table>
+  <thead>
+    <tr><th>
+      📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-world!">Playground: Hello, World!</a>
+    </th></tr>
+  </thead>
+</table>
+
+<p></p>
 
 <table>
   <thead>
@@ -36,10 +75,8 @@
   </tbody>
 </table>
 
-
-<em>Details in progress.</em>
-
 <p></p>
+
 
 </details>
 
@@ -62,13 +99,19 @@
 
 <p></p>
 
-<details closed>
+<details open>
 <summary><strong>3. Pass URL Params</strong>
 </summary>
 
 <p></p>
 
-<em>Details in progress.</em>
+<table>
+  <thead>
+    <tr><th>
+      📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-%7Bname%7D">Playground: Hello, {name}</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
 
@@ -93,13 +136,19 @@
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>5. Set Env Values</strong>
 </summary>
 
 <p></p>
 
-<em>Details in progress.</em>
+<table>
+  <thead>
+    <tr><th>
+      📖 Netlify Docs: <a href="https://docs.netlify.com/configure-builds/environment-variables/#declare-variables">Environmental Variables</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
 
@@ -109,7 +158,7 @@
 
 
 <details closed>
-<summary><strong>6. Test Token</strong>
+<summary><strong>6. Test Authentication</strong>
 </summary>
 
 <p></p>
@@ -138,13 +187,10 @@
   </thead>
   <tbody>
     <tr><td>
-      Split your function or use async. 
+      Simplify your function or try Netlify's <a href="https://docs.netlify.com/functions/background-functions/">Background Functions</a>.
     </td></tr>
   </tbody>
 </table>
-
-
-<em>Details in progress.</em>
 
 <p></p>
 

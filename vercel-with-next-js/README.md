@@ -16,15 +16,32 @@
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>1. Log Hello World</strong>
 </summary>
 
 <p></p>
 
-<em>Details in progress.</em>
+<table>
+  <thead>
+    <tr><th>
+      📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Local Development</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
+
+<table>
+  <thead>
+    <tr><th>
+      📖 Vercel Docs: <a href="https://nextjs.org/docs/api-routes/introduction">API Routes</a>
+    </th></tr>
+  </thead>
+</table>
+
+<p></p>
+
 
 </details>
 
@@ -32,14 +49,19 @@
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>2. Deploy Hello World</strong>
 </summary>
 
-
 <p></p>
 
-<em>Details in progress.</em>
+<table>
+  <thead>
+    <tr><th>
+      📖 Vercel Docs: <a href="https://nextjs.org/docs/deployment">Deployment</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
 
@@ -47,15 +69,22 @@
 
 <p></p>
 
-<details closed>
+<details open>
 <summary><strong>3. Pass URL Params</strong>
 </summary>
 
 <p></p>
 
-<em>Details in progress.</em>
+<table>
+  <thead>
+    <tr><th>
+      📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Path Segments</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
+
 
 </details>
 
@@ -78,13 +107,19 @@
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>5. Set Env Values</strong>
 </summary>
 
 <p></p>
 
-<em>Details in progress.</em>
+<table>
+  <thead>
+    <tr><th>
+      📖 Vercel Docs: <a href="https://vercel.com/docs/environment-variables">Environmental Variables</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
 
