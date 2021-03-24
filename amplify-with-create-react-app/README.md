@@ -16,7 +16,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>1. Log Hello World</strong>
   </summary>
 
@@ -93,7 +93,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>2. Deploy Hello World</strong>
   </summary>
 
@@ -164,13 +164,75 @@
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>3. Pass URL Params</strong>
 </summary>
 
 <p></p>
 
-<em>Details in progress.</em>
+<table>
+  <thead>
+    <tr><th>
+      📖 Amplify Docs: <a href="https://docs.amplify.aws/lib/restapi/fetch/q/platform/js#accessing-query-parameters--body-in-lambda-proxy-function">Accessing query parameters & body in Lambda proxy function</a>
+    </th></tr>
+  </thead>
+</table>
+
+<p></p>
+
+<pre>
+<code>exports.handler = async (event) => {
+    const params = event.queryStringParameters
+    console.log(params)
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify(`Hello from Lambda! Params are ${params}`),
+    }
+    return response 
+}</code>
+</pre>
+
+<p></p>
+
+<pre><code>amplify mock function amplifyHelloWorld --event src/event.json</code></pre>
+
+<p></p>
+
+
+<table>
+  <thead>
+    <tr><th>
+      ⚠️ Params are undefined
+    </th></tr>
+  </thead>
+  <tbody>
+    <tr><td>
+      <a href="https://github.com/aws-amplify/amplify-cli/issues/6384">Possibly a new bug.</a>
+    </td></tr>
+  </tbody>
+</table>
+
+
+
+<p></p>
+
+
+<pre><code>amplify push</code></pre>
+
+
+<p></p>
+
+
+<img style="border-radius:10px" src="../assets/params.gif"/>
+
+
+<p></p>
+
+  <p></p>
+
+
+<img style="border-radius:10px" src="../assets/amplify-params.jpg"/>
+
 
 <p></p>
 
