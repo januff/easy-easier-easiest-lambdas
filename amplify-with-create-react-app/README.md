@@ -182,11 +182,9 @@
 
 <pre>
 <code>exports.handler = async (event) => {
-    const params = event.queryStringParameters
-    console.log(params)
     const response = {
         statusCode: 200,
-        body: JSON.stringify(`Hello from Lambda! Params are ${JSON.stringify(params)}`),
+        body: JSON.stringify(`Hello from Lambda! Params are ${JSON.stringify(event.queryStringParameters || event)}`),
     }
     return response 
 }</code>
@@ -212,8 +210,7 @@
   </thead>
   <tbody>
     <tr><td>
-      <a href="https://github.com/aws-amplify/amplify-cli/issues/6384">Possibly a new bug.</a>
-    </td></tr>
+      Use event instead of event.queryStringParameters to read from local event.json file?
   </tbody>
 </table>
 
