@@ -103,7 +103,7 @@ The package used in the installation and authentication sections is DataStax's <
 
 ### Deployment Quickstarts ⏲️ ###
 
-<details open>
+<details closed>
 <summary><code><strong>Amplify CLI</strong></code>
 
 <p></p>
@@ -133,7 +133,7 @@ The package used in the installation and authentication sections is DataStax's <
 <p></p>
 
 
-<details open>
+<details closed>
 <summary><code><strong>Netlify</strong></code>  
 <p></p>
 
@@ -161,7 +161,7 @@ The package used in the installation and authentication sections is DataStax's <
 
 <p>
 
-<details open>
+<details closed>
 <summary><code><strong>Vercel</strong></code>
 <p></p>
 
