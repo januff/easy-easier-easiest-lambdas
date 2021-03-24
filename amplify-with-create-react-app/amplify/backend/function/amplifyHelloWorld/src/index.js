@@ -3,7 +3,7 @@ exports.handler = async (event) => {
     console.log(params)
     const response = {
         statusCode: 200,
-        body: JSON.stringify(`Hello from Lambda! Params are ${params}`),
+        body: JSON.stringify(`Hello from Lambda! Params are ${JSON.stringify(params)}`),
     }
     return response 
 }
