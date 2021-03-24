@@ -199,6 +199,11 @@
 <p></p>
 
 
+<img style="border-radius:10px" src="../assets/amplify-mock-undefined.gif"/>
+
+<p></p>
+
+
 <table>
   <thead>
     <tr><th>
