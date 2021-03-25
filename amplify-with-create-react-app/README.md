@@ -210,7 +210,7 @@
   </thead>
   <tbody>
     <tr><td>
-      Use the event object from your local event.json to mock event.queryStringParameters
+      Use the event object from your local event.json to mock event.queryStringParameters. Alternately, set manually <a href="https://docs.amplify.aws/cli/restapi/testing#test-the-api-with-amplify-mock">like so</a>.
   </tbody>
 </table>
 
