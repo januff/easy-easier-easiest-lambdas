@@ -15,7 +15,7 @@
       "function": {
         "amplifyHelloWorld": {
           "deploymentBucketName": "amplify-amplifywithcra-dev-161803-deployment",
-          "s3Key": "amplify-builds/amplifyHelloWorld-2f383547343131454136-build.zip"
+          "s3Key": "amplify-builds/amplifyHelloWorld-714c4e4b56472b394956-build.zip"
         }
       }
     }
