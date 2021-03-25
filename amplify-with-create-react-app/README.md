@@ -184,7 +184,7 @@
 <code>exports.handler = async (event) => {
     const response = {
         statusCode: 200,
-        body: JSON.stringify(`Hello from Lambda! Params are ${JSON.stringify(event.queryStringParameters || event)}`),
+        body: JSON.stringify(`Hello from Lambda! Params or event: ${JSON.stringify(event.queryStringParameters || event)}`),
     }
     return response 
 }</code>
@@ -197,7 +197,7 @@
 <p></p>
 
 
-<img style="border-radius:10px" src="../assets/amplify-mock-undefined.gif"/>
+<img style="border-radius:10px" src="../assets/amplify-mock-event.gif"/>
 
 <p></p>
 
@@ -210,7 +210,7 @@
   </thead>
   <tbody>
     <tr><td>
-      Use event instead of event.queryStringParameters to read from local event.json file?
+      Use the event object from your local event.json to mock event.queryStringParameters
   </tbody>
 </table>
 
@@ -230,10 +230,13 @@
 
 <p></p>
 
-  <p></p>
+<img style="border-radius:10px" src="../assets/amplify-test-params.png"/>
 
 
-<img style="border-radius:10px" src="../assets/amplify-params.jpg"/>
+<p></p>
+
+
+<img style="border-radius:10px" src="../assets/amplify-test-event.png"/>
 
 
 <p></p>
