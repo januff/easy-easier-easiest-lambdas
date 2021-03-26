@@ -39,7 +39,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-init.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-init.gif"/>
 
 
   <p></p>
@@ -51,7 +51,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-add-function.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-add-function.gif"/>
 
 
   <p></p>
@@ -81,7 +81,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-mock-function.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-mock-function.gif"/>
 
 
   <p></p>
@@ -117,7 +117,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-add-api.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-add-api.gif"/>
 
 
   <p></p>
@@ -129,13 +129,13 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-push.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-push.gif"/>
 
 
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-hello.png"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-hello.png"/>
 
 
   <p></p>
@@ -202,7 +202,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-mock-event.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-mock-event.gif"/>
 
 
   <p></p>
@@ -230,19 +230,19 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/params.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/params.gif"/>
 
 
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:520px" src="../assets/amplify-test-params.png"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/amplify-test-params.png"/>
 
 
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:520px" src="../assets/amplify-test-event.png"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/amplify-test-event.png"/>
 
 
   <p></p>
@@ -263,7 +263,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-npm.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-npm.gif"/>
 
 
   <p></p>
@@ -292,7 +292,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-env-dash.png"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-env-dash.png"/>
 
 
   <p></p>
@@ -335,7 +335,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-env-mock.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-env-mock.gif"/>
 
 
   <p></p>
@@ -344,7 +344,7 @@
   <pre><code>amplify push</code></pre>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-env-test.png"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-env-test.png"/>
 
 
   <p></p>
@@ -388,7 +388,7 @@
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-mock-astra.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-mock-astra.gif"/>
 
 
   <p></p>
@@ -410,7 +410,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-deploy-astra.png"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/amplify-deploy-astra.png"/>
 
 
   <p></p>
