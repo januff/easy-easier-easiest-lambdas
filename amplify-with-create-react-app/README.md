@@ -264,7 +264,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
 <summary><strong>5. Set Env Values</strong>
 </summary>
 
@@ -342,13 +342,38 @@ ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>6. Test Token</strong>
 </summary>
 
 <p></p>
 
-<em>Details in progress.</em>
+<pre><code>const { createClient } = require("@astrajs/collections");
+
+exports.handler = async (event) => {
+
+    // create an Astra client
+    const astraClient = await createClient({
+        astraDatabaseId: process.env.ASTRA_DB_ID,
+        astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+        applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
+    });
+
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify(`Hello from Lambda! process.env.ASTRA_DB_REGION: ${process.env.ASTRA_DB_REGION}. Params or event: ${JSON.stringify(event.queryStringParameters || event)}, astraClient: ${JSON.stringify(astraClient)}`),
+    }
+    return response 
+}</code></pre>
+
+<p></p>
+
+
+<pre><code>amplify mock function amplifyHelloWorld --event src/event.json</code></pre>
+
+<p></p>
+
+<img style="border-radius:10px" src="../assets/amplify-mock-astra.gif"/>
 
 <p></p>
 
@@ -357,13 +382,18 @@ ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab
 <p></p>
 
 
-<details closed>
+<details open>
 <summary><strong>7. Deploy Authenticated</strong>
 </summary>
 
 <p></p>
 
-<em>Details in progress.</em>
+<pre><code>amplify push</code></pre>
+
+<p></p>
+
+<img style="border-radius:10px" src="../assets/amplify-deploy-astra.png"/>
+
 
 <p></p>
 
