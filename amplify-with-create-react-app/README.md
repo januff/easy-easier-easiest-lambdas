@@ -255,13 +255,19 @@
 <p></p>
 
 
-<details closed>
+<details open>
 
   <summary><strong>4. Install NPM Packages</strong>
   </summary>
 
+  <p></p>
+
+  <pre><code>cd amplify/backend/function/amplifyHelloWorld/src</code></pre>
+
 
   <p></p>
+
+  <pre><code>npm i @astra/collections</code></pre>
 
 
   <img style="border-radius:10px;max-width:720px" src="../assets/amplify-npm.gif"/>
