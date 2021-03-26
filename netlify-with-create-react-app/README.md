@@ -22,132 +22,120 @@
 
 <pre><code>npm install netlify-cli -g</code></pre>
 
-
 <p></p>
 
+<details closed>
+  <summary><strong>1. Log Hello World</strong>
+  </summary>
 
-<details open>
-<summary><strong>1. Log Hello World</strong>
-</summary>
+  <p></p>
 
-<p></p>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://docs.netlify.com/functions/build-with-javascript/">Build serverless functions with JavaScript</a>
+      </th></tr>
+    </thead>
+  </table>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Netlify Docs: <a href="https://docs.netlify.com/functions/build-with-javascript/">Build serverless functions with JavaScript</a>
-    </th></tr>
-  </thead>
-</table>
+  <p></p>
 
-<p></p>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#get-started-with-netlify-dev">Get started with Netlify Dev</a>
+      </th></tr>
+    </thead>
+  </table>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#get-started-with-netlify-dev">Get started with Netlify Dev</a>
-    </th></tr>
-  </thead>
-</table>
+  <p></p>
 
-<p></p>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-world!">Playground: Hello, World!</a>
+      </th></tr>
+    </thead>
+  </table>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-world!">Playground: Hello, World!</a>
-    </th></tr>
-  </thead>
-</table>
+  <p></p>
 
-<p></p>
+  <pre><code>netlify init</code></pre>
 
+  <p></p>
 
-<pre><code>netlify init</code></pre>
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-init.gif"/>
 
+  <p></p>
 
-<p></p>
+  <pre><code>netlify functions:create hello-world</code></pre>
 
+  <p></p>
 
-<img style="border-radius:10px;max-width:720px" src="../assets/netlify-init.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-error.gif"/>
 
+  <p></p>
 
-<p></p>
+  <img style="border-radius:10px;max-width:420px" src="../assets/netlify-functions-folder.gif"/>
 
-<pre><code>netlify functions:create hello-world</code></pre>
+  <p></p>
 
+  <pre><code>netlify functions:create hello-world</code></pre>
 
-<p></p>
+  <p></p>
 
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-create.gif"/>
 
-<img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-error.gif"/>
+  <p></p>
 
+  <pre><code>netlify dev</code></pre>
 
-<p></p>
+  <p></p>
 
-<img style="border-radius:10px;max-width:420px" src="../assets/netlify-functions-folder.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-8888.gif"/>
 
+  <p></p>
 
-<p></p>
-
-<pre><code>netlify functions:create hello-world</code></pre>
-
-
-<p></p>
-
-
-<img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-create.gif"/>
-
-<p></p>
-
-<pre><code>netlify dev</code></pre>
-
-<p></p>
-
-<img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-8888.gif"/>
-
-<p></p>
-
-<img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-hello.png"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-hello.png"/>
 
 
-<p></p>
+  <p></p>
 
-<img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-200.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-200.gif"/>
 
+  <p></p>
 
-<p></p>
+  <table>
+    <thead>
+      <tr><th>
+        ⚠️ Something is already running on port xxxx.
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+        <code>killall node</code> 
+      </td></tr>
+    </tbody>
+  </table>
 
-<table>
-  <thead>
-    <tr><th>
-      ⚠️ Something is already running on port xxxx.
-    </th></tr>
-  </thead>
-  <tbody>
-    <tr><td>
-      <code>killall node</code> 
-    </td></tr>
-  </tbody>
-</table>
-
-<p></p>
-
+  <p></p>
 
 </details>
 
-
 <p></p>
-
 
 <details closed>
 <summary><strong>2. Deploy Hello World</strong>
 </summary>
 
+<p></p>
+
+<pre><code>netlify deploy</code></pre>
 
 <p></p>
 
-<em>Details in progress.</em>
+<img style="border-radius:10px;max-width:720px" src="../assets/netlify-deploy-hello.png"/>
+
 
 <p></p>
 
