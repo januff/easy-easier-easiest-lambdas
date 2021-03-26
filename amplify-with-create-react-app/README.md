@@ -253,7 +253,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>4. Install NPM Packages</strong>
   </summary>
 
