@@ -24,7 +24,7 @@
 
 <p></p>
 
-<details closed>
+<details open>
   <summary><strong>1. Log Hello World</strong>
   </summary>
 
@@ -50,6 +50,14 @@
 
   <p></p>
 
+  <pre><code>netlify init</code></pre>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-init.gif"/>
+
+  <p></p>
+  
   <table>
     <thead>
       <tr><th>
@@ -60,11 +68,13 @@
 
   <p></p>
 
-  <pre><code>netlify init</code></pre>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-init.gif"/>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://cli.netlify.com/commands/functions#functionscreate">functions:create</a>
+      </th></tr>
+    </thead>
+  </table>
 
   <p></p>
 
@@ -73,6 +83,16 @@
   <p></p>
 
   <img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-error.gif"/>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://docs.netlify.com/functions/configure-and-deploy/">Configure and deploy Functions</a>
+      </th></tr>
+    </thead>
+  </table>
 
   <p></p>
 
@@ -126,7 +146,7 @@
 <details open>
   <summary><strong>2. Deploy Hello World</strong>
   </summary>
-`
+
   <p></p>
 
   <table>
