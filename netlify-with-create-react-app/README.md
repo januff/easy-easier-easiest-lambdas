@@ -62,10 +62,66 @@
 
 <p></p>
 
+
+<pre><code>netlify init</code></pre>
+
+
+<p></p>
+
+
+<img style="border-radius:10px;max-width:720px" src="../assets/netlify-init.gif"/>
+
+
+<p></p>
+
+<pre><code>netlify functions:create hello-world</code></pre>
+
+
+<p></p>
+
+
+<img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-error.gif"/>
+
+
+<p></p>
+
+<img style="border-radius:10px;max-width:420px" src="../assets/netlify-functions-folder.gif"/>
+
+
+<p></p>
+
+<pre><code>netlify functions:create hello-world</code></pre>
+
+
+<p></p>
+
+
+<img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-create.gif"/>
+
+<p></p>
+
+<pre><code>netlify dev</code></pre>
+
+<p></p>
+
+<img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-8888.gif"/>
+
+<p></p>
+
+<img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-hello.png"/>
+
+
+<p></p>
+
+<img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-200.gif"/>
+
+
+<p></p>
+
 <table>
   <thead>
     <tr><th>
-      ⚠️ Something is already running on port 3000.
+      ⚠️ Something is already running on port xxxx.
     </th></tr>
   </thead>
   <tbody>
