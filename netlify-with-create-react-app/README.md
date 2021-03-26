@@ -24,7 +24,7 @@
 
 <p></p>
 
-<details open>
+<details closed>
   <summary><strong>1. Log Hello World</strong>
   </summary>
 
@@ -143,7 +143,7 @@
 
 <p></p>
 
-<details open>
+<details closed>
   <summary><strong>2. Deploy Hello World</strong>
   </summary>
 
@@ -191,6 +191,17 @@
   </table>
 
   <p></p>
+
+  <pre><code>exports.handler = async (event, context) => {
+  const name = event.queryStringParameters.name || "World";
+
+  return {
+    statusCode: 200,
+    body: `Hello, ${name}`,
+  };
+};</code></pre>
+
+  <p><p>
 
   </details>
 
