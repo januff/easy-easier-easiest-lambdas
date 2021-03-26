@@ -167,7 +167,8 @@
 <details closed>
 <summary><strong>3. Pass URL Params</strong>
 </summary>
-
+ 
+ 
 <p></p>
 
 <table>
