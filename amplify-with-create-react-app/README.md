@@ -165,88 +165,88 @@
 
 
 <details closed>
-<summary><strong>3. Pass URL Params</strong>
-</summary>
- 
+  <summary><strong>3. Pass URL Params</strong>
+  </summary>
+  
 
-<p></p>
-
-
-<table>
-  <thead>
-    <tr><th>
-      📖 Amplify Docs: <a href="https://docs.amplify.aws/lib/restapi/fetch/q/platform/js#accessing-query-parameters--body-in-lambda-proxy-function">Accessing query parameters & body in Lambda proxy function</a>
-    </th></tr>
-  </thead>
-</table>
+  <p></p>
 
 
-<p></p>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Amplify Docs: <a href="https://docs.amplify.aws/lib/restapi/fetch/q/platform/js#accessing-query-parameters--body-in-lambda-proxy-function">Accessing query parameters & body in Lambda proxy function</a>
+      </th></tr>
+    </thead>
+  </table>
 
 
-<pre>
-<code>exports.handler = async (event) => {
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify(`Hello from Lambda! Params or event: ${JSON.stringify(event.queryStringParameters || event)}`),
-    }
-    return response 
-}</code>
-</pre>
+  <p></p>
 
 
-<p></p>
+  <pre>
+  <code>exports.handler = async (event) => {
+      const response = {
+          statusCode: 200,
+          body: JSON.stringify(`Hello from Lambda! Params or event: ${JSON.stringify(event.queryStringParameters || event)}`),
+      }
+      return response 
+  }</code>
+  </pre>
 
 
-<pre><code>amplify mock function amplifyHelloWorld --event src/event.json</code></pre>
+  <p></p>
 
 
-<p></p>
+  <pre><code>amplify mock function amplifyHelloWorld --event src/event.json</code></pre>
 
 
-<img style="border-radius:10px" src="../assets/amplify-mock-event.gif"/>
+  <p></p>
 
 
-<p></p>
+  <img style="border-radius:10px" src="../assets/amplify-mock-event.gif"/>
 
 
-<table>
-  <thead>
-    <tr><th>
-      ⚠️ Params are undefined
-    </th></tr>
-  </thead>
-  <tbody>
-    <tr><td>
-      Use the event object from your local event.json to mock event.queryStringParameters. Alternately, set manually <a href="https://docs.amplify.aws/cli/restapi/testing#test-the-api-with-amplify-mock">like so</a>.
-  </tbody>
-</table>
+  <p></p>
 
 
-<p></p>
+  <table>
+    <thead>
+      <tr><th>
+        ⚠️ Params are undefined
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+        Use the event object from your local event.json to mock event.queryStringParameters. Alternately, set manually <a href="https://docs.amplify.aws/cli/restapi/testing#test-the-api-with-amplify-mock">like so</a>.
+    </tbody>
+  </table>
 
 
-<pre><code>amplify push</code></pre>
+  <p></p>
 
 
-<p></p>
+  <pre><code>amplify push</code></pre>
 
 
-<img style="border-radius:10px" src="../assets/params.gif"/>
+  <p></p>
 
 
-<p></p>
-
-<img style="border-radius:10px" src="../assets/amplify-test-params.png"/>
+  <img style="border-radius:10px" src="../assets/params.gif"/>
 
 
-<p></p>
+  <p></p>
+
+  <img style="border-radius:10px" src="../assets/amplify-test-params.png"/>
 
 
-<img style="border-radius:10px" src="../assets/amplify-test-event.png"/>
+  <p></p>
 
 
-<p></p>
+  <img style="border-radius:10px" src="../assets/amplify-test-event.png"/>
+
+
+  <p></p>
 
 
 </details>
@@ -256,16 +256,16 @@
 
 
 <details open>
-<summary><strong>4. Install NPM Packages</strong>
-</summary>
+  <summary><strong>4. Install NPM Packages</strong>
+  </summary>
 
-<p></p>
-
-
-<img style="border-radius:10px" src="../assets/amplify-npm.gif"/>
+  <p></p>
 
 
-<p></p>
+  <img style="border-radius:10px" src="../assets/amplify-npm.gif"/>
+
+
+  <p></p>
 
 </details>
 
@@ -273,77 +273,77 @@
 
 
 <details closed>
-<summary><strong>5. Set Env Values</strong>
-</summary>
+  <summary><strong>5. Set Env Values</strong>
+  </summary>
+
+    <p></p>
+
+    <table>
+      <thead>
+        <tr><th>
+          📖 Amplify Docs: <a href="https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-config">Configuring environment variables</a>
+        </th></tr>
+      </thead>
+    </table>
+
+    <p></p>
+
+
+
+  <img style="border-radius:10px" src="../assets/amplify-env-dash.png"/>
+
 
   <p></p>
 
-  <table>
-    <thead>
-      <tr><th>
-        📖 Amplify Docs: <a href="https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-config">Configuring environment variables</a>
-      </th></tr>
-    </thead>
-  </table>
+
+  <pre><code>exports.handler = async (event) => {
+      const response = {
+          statusCode: 200,
+          body: JSON.stringify(`Hello from Lambda! process.env.ASTRA_DB_REGION: ${process.env.ASTRA_DB_REGION}. Params or event: ${JSON.stringify(event.queryStringParameters || event)}`),
+      }
+      return response 
+  }</code></pre>
+
 
   <p></p>
 
 
+    <table>
+      <thead>
+        <tr><th>
+          📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/usage/mock#function-mock-environment-variables">Function mock environment variables</a>
+        </th></tr>
+      </thead>
+      <tbody>
+        <tr><td>
+        You can also override any mock environment variables in a .env file within the function directory (ie. &lt;project root&gt;/amplify/backend/function/&lt;function name&gt;/.env).</td>
+        </tr>
+      </tbody>
+    </table>
 
-<img style="border-radius:10px" src="../assets/amplify-env-dash.png"/>
+    <p></p>
 
+  <pre><code>ASTRA_DB_ID=18d8558b-e01c-4b5e-bb1b-f6ef05a81218
+  ASTRA_DB_REGION=us-east-1
+  ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab1e1ad5ce69d8bde6d437e6f361abd5beea3974cfd9b6</code></pre>
 
-<p></p>
-
-
-<pre><code>exports.handler = async (event) => {
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify(`Hello from Lambda! process.env.ASTRA_DB_REGION: ${process.env.ASTRA_DB_REGION}. Params or event: ${JSON.stringify(event.queryStringParameters || event)}`),
-    }
-    return response 
-}</code></pre>
-
-
-<p></p>
-
-
-  <table>
-    <thead>
-      <tr><th>
-        📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/usage/mock#function-mock-environment-variables">Function mock environment variables</a>
-      </th></tr>
-    </thead>
-    <tbody>
-      <tr><td>
-      You can also override any mock environment variables in a .env file within the function directory (ie. &lt;project root&gt;/amplify/backend/function/&lt;function name&gt;/.env).</td>
-      </tr>
-    </tbody>
-  </table>
+    <p></p>
 
   <p></p>
 
-<pre><code>ASTRA_DB_ID=18d8558b-e01c-4b5e-bb1b-f6ef05a81218
-ASTRA_DB_REGION=us-east-1
-ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab1e1ad5ce69d8bde6d437e6f361abd5beea3974cfd9b6</code></pre>
+
+  <img style="border-radius:10px" src="../assets/amplify-env-mock.gif"/>
+
 
   <p></p>
 
-<p></p>
+  <pre><code>amplify push</code></pre>
 
 
-<img style="border-radius:10px" src="../assets/amplify-env-mock.gif"/>
+  <img style="border-radius:10px" src="../assets/amplify-env-test.png"/>
 
 
-<p></p>
-
-<pre><code>amplify push</code></pre>
-
-
-<img style="border-radius:10px" src="../assets/amplify-env-test.png"/>
-
-
-<p></p>
+  <p></p>
 
 </details>
 
@@ -351,39 +351,39 @@ ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab
 
 
 <details open>
-<summary><strong>6. Test Token</strong>
-</summary>
+  <summary><strong>6. Test Token</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<pre><code>const { createClient } = require("@astrajs/collections");
+  <pre><code>const { createClient } = require("@astrajs/collections");
 
-exports.handler = async (event) => {
+  exports.handler = async (event) => {
 
-    // create an Astra client
-    const astraClient = await createClient({
-        astraDatabaseId: process.env.ASTRA_DB_ID,
-        astraDatabaseRegion: process.env.ASTRA_DB_REGION,
-        applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
-    });
+      // create an Astra client
+      const astraClient = await createClient({
+          astraDatabaseId: process.env.ASTRA_DB_ID,
+          astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+          applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
+      });
 
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify(`Hello from Lambda! process.env.ASTRA_DB_REGION: ${process.env.ASTRA_DB_REGION}. Params or event: ${JSON.stringify(event.queryStringParameters || event)}, astraClient: ${JSON.stringify(astraClient)}`),
-    }
-    return response 
-}</code></pre>
+      const response = {
+          statusCode: 200,
+          body: JSON.stringify(`Hello from Lambda! process.env.ASTRA_DB_REGION: ${process.env.ASTRA_DB_REGION}. Params or event: ${JSON.stringify(event.queryStringParameters || event)}, astraClient: ${JSON.stringify(astraClient)}`),
+      }
+      return response 
+  }</code></pre>
 
-<p></p>
+  <p></p>
 
 
-<pre><code>amplify mock function amplifyHelloWorld --event src/event.json</code></pre>
+  <pre><code>amplify mock function amplifyHelloWorld --event src/event.json</code></pre>
 
-<p></p>
+  <p></p>
 
-<img style="border-radius:10px" src="../assets/amplify-mock-astra.gif"/>
+  <img style="border-radius:10px" src="../assets/amplify-mock-astra.gif"/>
 
-<p></p>
+  <p></p>
 
 </details>
 
@@ -391,18 +391,18 @@ exports.handler = async (event) => {
 
 
 <details open>
-<summary><strong>7. Deploy Authenticated</strong>
-</summary>
+  <summary><strong>7. Deploy Authenticated</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<pre><code>amplify push</code></pre>
+  <pre><code>amplify push</code></pre>
 
-<p></p>
+  <p></p>
 
-<img style="border-radius:10px" src="../assets/amplify-deploy-astra.png"/>
+  <img style="border-radius:10px" src="../assets/amplify-deploy-astra.png"/>
 
 
-<p></p>
+  <p></p>
 
 </details>
