@@ -168,7 +168,7 @@
 <summary><strong>3. Pass URL Params</strong>
 </summary>
  
- 
+
 <p></p>
 
 <table>
@@ -241,6 +241,7 @@
 
 
 <p></p>
+
 
 </details>
 
