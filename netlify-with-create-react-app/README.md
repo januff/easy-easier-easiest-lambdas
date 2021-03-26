@@ -197,9 +197,15 @@
 
   return {
     statusCode: 200,
-    body: `Hello, ${name}`,
+    body: `Hello ${name}`,
   };
 };</code></pre>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-params.png"/>
+
+  <p></p>
 
   <p></p>
 
