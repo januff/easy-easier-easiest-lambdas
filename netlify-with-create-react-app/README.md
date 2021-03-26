@@ -123,9 +123,24 @@
 
 <p></p>
 
-<details closed>
+<details open>
   <summary><strong>2. Deploy Hello World</strong>
   </summary>
+`
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        ⚠️ Error: No such directory <br>› Did you forget to run a build?
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+        Set your Directory to Deploy as blank or "." during init, or through the web dashboard in Site Settings: Build & Deploy.
+      </td></tr>
+    </tbody>
+  </table>
 
   <p></p>
 
