@@ -235,13 +235,13 @@
 
   <p></p>
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-test-params.png"/>
+  <img style="border-radius:10px; max-width:520px" src="../assets/amplify-test-params.png"/>
 
 
   <p></p>
 
 
-  <img style="border-radius:10px; max-width:720px" src="../assets/amplify-test-event.png"/>
+  <img style="border-radius:10px; max-width:520px" src="../assets/amplify-test-event.png"/>
 
 
   <p></p>
@@ -254,6 +254,7 @@
 
 
 <details closed>
+
   <summary><strong>4. Install NPM Packages</strong>
   </summary>
 
@@ -265,7 +266,6 @@
 
 
   <p></p>
-
 
 </details>
 
