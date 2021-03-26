@@ -171,6 +171,7 @@
 
 <p></p>
 
+
 <table>
   <thead>
     <tr><th>
@@ -179,7 +180,9 @@
   </thead>
 </table>
 
+
 <p></p>
+
 
 <pre>
 <code>exports.handler = async (event) => {
@@ -191,14 +194,18 @@
 }</code>
 </pre>
 
+
 <p></p>
 
+
 <pre><code>amplify mock function amplifyHelloWorld --event src/event.json</code></pre>
+
 
 <p></p>
 
 
 <img style="border-radius:10px" src="../assets/amplify-mock-event.gif"/>
+
 
 <p></p>
 
@@ -214,7 +221,6 @@
       Use the event object from your local event.json to mock event.queryStringParameters. Alternately, set manually <a href="https://docs.amplify.aws/cli/restapi/testing#test-the-api-with-amplify-mock">like so</a>.
   </tbody>
 </table>
-
 
 
 <p></p>
