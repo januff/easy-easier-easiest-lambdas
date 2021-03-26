@@ -98,7 +98,6 @@
 
   <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-hello.png"/>
 
-
   <p></p>
 
   <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-200.gif"/>
@@ -125,117 +124,111 @@
 <p></p>
 
 <details closed>
-<summary><strong>2. Deploy Hello World</strong>
-</summary>
+  <summary><strong>2. Deploy Hello World</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<pre><code>netlify deploy</code></pre>
+  <pre><code>netlify deploy</code></pre>
 
-<p></p>
+  <p></p>
 
-<img style="border-radius:10px;max-width:720px" src="../assets/netlify-deploy-hello.png"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-deploy-hello.png"/>
 
-
-<p></p>
+  <p></p>
 
 </details>
 
 <p></p>
 
 <details open>
-<summary><strong>3. Pass URL Params</strong>
-</summary>
+  <summary><strong>3. Pass URL Params</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-%7Bname%7D">Playground: Hello, {name}</a>
-    </th></tr>
-  </thead>
-</table>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-%7Bname%7D">Playground: Hello, {name}</a>
+      </th></tr>
+    </thead>
+  </table>
 
-<p></p>
+  <p></p>
 
-</details>
+  </details>
 
+  <p></p>
 
-<p></p>
+  <details closed>
+  <summary><strong>4. Install NPM Packages</strong>
+  </summary>
 
+  <p></p>
 
-<details closed>
-<summary><strong>4. Install NPM Packages</strong>
-</summary>
+  <em>Details in progress.</em>
 
-<p></p>
-
-<em>Details in progress.</em>
-
-<p></p>
+  <p></p>
 
 </details>
 
 <p></p>
-
 
 <details open>
-<summary><strong>5. Set Env Values</strong>
-</summary>
+  <summary><strong>5. Set Env Values</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Netlify Docs: <a href="https://docs.netlify.com/configure-builds/environment-variables/#declare-variables">Environmental Variables</a>
-    </th></tr>
-  </thead>
-</table>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://docs.netlify.com/configure-builds/environment-variables/#declare-variables">Environmental Variables</a>
+      </th></tr>
+    </thead>
+  </table>
 
-<p></p>
+  <p></p>
+
+  </details>
+
+  <p></p>
+
+  <details closed>
+  <summary><strong>6. Test Authentication</strong>
+  </summary>
+
+  <p></p>
+
+  <em>Details in progress.</em>
+
+  <p></p>
 
 </details>
 
 <p></p>
-
-
-<details closed>
-<summary><strong>6. Test Authentication</strong>
-</summary>
-
-<p></p>
-
-<em>Details in progress.</em>
-
-<p></p>
-
-</details>
-
-<p></p>
-
 
 <details open>
-<summary><strong>7. Deploy Authenticated</strong>
-</summary>
+  <summary><strong>7. Deploy Authenticated</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
 
-<table>
-  <thead>
-    <tr><th>
-      ⚠️ TimeoutError: Task timed out after 10.00 seconds
-    </th></tr>
-  </thead>
-  <tbody>
-    <tr><td>
-      Simplify your function or try Netlify's <a href="https://docs.netlify.com/functions/background-functions/">Background Functions</a>.
-    </td></tr>
-  </tbody>
-</table>
+  <table>
+    <thead>
+      <tr><th>
+        ⚠️ TimeoutError: Task timed out after 10.00 seconds
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+        Simplify your function or try Netlify's <a href="https://docs.netlify.com/functions/background-functions/">Background Functions</a>.
+      </td></tr>
+    </tbody>
+  </table>
 
-<p></p>
+  <p></p>
 
 </details>
