@@ -330,7 +330,6 @@
   ASTRA_DB_REGION=us-east-1
   ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab1e1ad5ce69d8bde6d437e6f361abd5beea3974cfd9b6</code></pre>
 
-    <p></p>
 
   <p></p>
 
@@ -339,6 +338,7 @@
 
 
   <p></p>
+
 
   <pre><code>amplify push</code></pre>
 
@@ -386,9 +386,12 @@
 
   <p></p>
 
+
   <img style="border-radius:10px" src="../assets/amplify-mock-astra.gif"/>
 
+
   <p></p>
+  
 
 </details>
 
