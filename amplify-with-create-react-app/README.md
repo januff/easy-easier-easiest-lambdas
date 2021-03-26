@@ -259,6 +259,7 @@
   <summary><strong>4. Install NPM Packages</strong>
   </summary>
 
+
   <p></p>
 
 
@@ -267,7 +268,9 @@
 
   <p></p>
 
+
 </details>
+
 
 <p></p>
 
@@ -276,18 +279,18 @@
   <summary><strong>5. Set Env Values</strong>
   </summary>
 
-    <p></p>
+  <p></p>
 
-    <table>
-      <thead>
-        <tr><th>
-          📖 Amplify Docs: <a href="https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-config">Configuring environment variables</a>
-        </th></tr>
-      </thead>
-    </table>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Amplify Docs: <a href="https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-config">Configuring environment variables</a>
+      </th></tr>
+    </thead>
+  </table>
 
-    <p></p>
 
+  <p></p>
 
 
   <img style="border-radius:10px" src="../assets/amplify-env-dash.png"/>
@@ -308,20 +311,22 @@
   <p></p>
 
 
-    <table>
-      <thead>
-        <tr><th>
-          📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/usage/mock#function-mock-environment-variables">Function mock environment variables</a>
-        </th></tr>
-      </thead>
-      <tbody>
-        <tr><td>
-        You can also override any mock environment variables in a .env file within the function directory (ie. &lt;project root&gt;/amplify/backend/function/&lt;function name&gt;/.env).</td>
-        </tr>
-      </tbody>
-    </table>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/usage/mock#function-mock-environment-variables">Function mock environment variables</a>
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+      You can also override any mock environment variables in a .env file within the function directory (ie. &lt;project root&gt;/amplify/backend/function/&lt;function name&gt;/.env).</td>
+      </tr>
+    </tbody>
+  </table>
 
-    <p></p>
+
+  <p></p>
+
 
   <pre><code>ASTRA_DB_ID=18d8558b-e01c-4b5e-bb1b-f6ef05a81218
   ASTRA_DB_REGION=us-east-1
@@ -345,7 +350,9 @@
 
   <p></p>
 
+
 </details>
+
 
 <p></p>
 
@@ -387,6 +394,7 @@
 
 </details>
 
+
 <p></p>
 
 
@@ -404,5 +412,6 @@
 
 
   <p></p>
+
 
 </details>
