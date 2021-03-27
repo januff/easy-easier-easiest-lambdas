@@ -176,7 +176,7 @@
 
 <p></p>
 
-<details open>
+<details closed>
   <summary><strong>3. Pass URL Params</strong>
   </summary>
 
@@ -207,19 +207,21 @@
 
   <p></p>
 
-  <p></p>
+</details>
 
-  </details>
+<p></p>
 
-  <p></p>
-
-  <details closed>
+<details open>
   <summary><strong>4. Install NPM Packages</strong>
   </summary>
 
   <p></p>
 
-  <em>Details in progress.</em>
+  <pre><code>npm i @astrajs/collections</code></pre>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-npm-i.gif"/>
 
   <p></p>
 
@@ -243,11 +245,43 @@
 
   <p></p>
 
-  </details>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-env-folder.gif"/>
 
   <p></p>
 
-  <details closed>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-dev-restart.jpg"/>
+
+  <p></p>
+
+  <pre><code>const handler = async (event) => {
+  try {
+    const region = process.env.ASTRA_DB_REGION
+    const subject = event.queryStringParameters.name || 'World'
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ message: `Hello, ${subject}. Region: ${region}` }),
+    }
+  } catch (error) {
+    return { statusCode: 500, body: error.toString() }
+  }
+}</code></pre>
+
+  <p></p>
+
+  <pre></code>netlify dev</code></pre>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-env-8888.jpg"/>
+
+  <p></p>
+
+
+</details>
+
+<p></p>
+
+<details closed>
   <summary><strong>6. Test Authentication</strong>
   </summary>
 

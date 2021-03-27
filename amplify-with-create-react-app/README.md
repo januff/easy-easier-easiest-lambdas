@@ -267,7 +267,7 @@
 
   <p></p>
 
-  <pre><code>npm i @astra/collections</code></pre>
+  <pre><code>npm i @astrajs/collections</code></pre>
 
 
   <img style="border-radius:10px;max-width:720px" src="../assets/amplify-npm.gif"/>
