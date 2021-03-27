@@ -211,7 +211,7 @@
 
 <p></p>
 
-<details open>
+<details closed>
   <summary><strong>4. Install NPM Packages</strong>
   </summary>
 
@@ -229,7 +229,7 @@
 
 <p></p>
 
-<details open>
+<details closed>
   <summary><strong>5. Set Env Values</strong>
   </summary>
 
@@ -272,30 +272,60 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-env-8888.jpg"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-env-8888.jpg"/>
 
   <p></p>
 
-
-</details>
-
-<p></p>
-
-<details closed>
-  <summary><strong>6. Test Authentication</strong>
-  </summary>
-
-  <p></p>
-
-  <em>Details in progress.</em>
-
-  <p></p>
 
 </details>
 
 <p></p>
 
 <details open>
+  <summary><strong>6. Test Authentication</strong>
+  </summary>
+
+  <p></p>
+
+  <pre><code>const { createClient } = require("@astrajs/collections");
+
+const handler = async (event) => {
+  try {
+    const region = process.env.ASTRA_DB_REGION
+    // create an Astra client
+    
+    const astraClient = await createClient({
+      astraDatabaseId: process.env.ASTRA_DB_ID,
+      astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+      applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
+    });
+
+    const subject = event.queryStringParameters.name || 'World'
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ 
+        message: `Hello, ${subject}. 
+                  Region: ${region}.
+                  Astra Token: ${astraClient.restClient.applicationToken}.` }),
+    }
+  } catch (error) {
+    return { statusCode: 500, body: error.toString() }
+  }
+}
+
+module.exports = { handler }</code></pre>
+
+<p></p>
+
+<img style="border-radius:10px;max-width:720px" src="../assets/netlify-test-token.jpg"/>
+
+<p></p>
+
+</details>
+
+<p></p>
+
+<details closed>
   <summary><strong>7. Deploy Authenticated</strong>
   </summary>
 
