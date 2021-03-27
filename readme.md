@@ -84,7 +84,7 @@ The package used in the installation and authentication sections is DataStax's <
 
 
 
-<a href="astra">Set-up instructions for Astra</a>
+<a href="datastax-serverless-db">Set-up instructions for Astra</a>
 
 
 
