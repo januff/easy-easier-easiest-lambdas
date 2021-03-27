@@ -41,6 +41,12 @@
   </thead>
 </table>
 
+
+<p></p>
+
+<img style="border-radius:10px;max-width:520px" src="../assets/datastax-create.jpg"/>
+
+
 <p></p>
 
 </details>
@@ -64,6 +70,14 @@
 <p></p>
 
 
+<p></p>
+
+
+<img style="border-radius:10px;max-width:520px" src="../assets/datastax-token.jpg"/>
+
+
+<p></p>
+
 </details>
 
 
@@ -86,6 +100,11 @@
 
 <p></p>
 
+
+<img style="border-radius:10px;max-width:520px" src="../assets/datastax-sdk.jpg"/>
+
+
+<p></p>
 
 <pre><code>ASTRA_DB_ID=18d8558b-e01c-4b5e-bb1b-f6ef05a81218
 ASTRA_DB_REGION=us-east-1
