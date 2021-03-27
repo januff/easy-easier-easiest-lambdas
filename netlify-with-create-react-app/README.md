@@ -249,7 +249,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-dev-restart.jpg"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-restart.jpg"/>
 
   <p></p>
 
@@ -281,7 +281,7 @@
 
 <p></p>
 
-<details open>
+<details closed>
   <summary><strong>6. Test Authentication</strong>
   </summary>
 
@@ -292,8 +292,8 @@
 const handler = async (event) => {
   try {
     const region = process.env.ASTRA_DB_REGION
-    // create an Astra client
-    
+
+    // create an Astra client  
     const astraClient = await createClient({
       astraDatabaseId: process.env.ASTRA_DB_ID,
       astraDatabaseRegion: process.env.ASTRA_DB_REGION,
@@ -301,6 +301,7 @@ const handler = async (event) => {
     });
 
     const subject = event.queryStringParameters.name || 'World'
+
     return {
       statusCode: 200,
       body: JSON.stringify({ 
@@ -325,12 +326,36 @@ module.exports = { handler }</code></pre>
 
 <p></p>
 
-<details closed>
+<details open>
   <summary><strong>7. Deploy Authenticated</strong>
   </summary>
 
   <p></p>
 
+  <pre><code>netlify deploy</code></pre>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-deploy.gif"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-deploy-error.jpg"/>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        ⚠️ Error: @astrajs/rest: baseUrl required for initialization
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+        Not sure what's happening here!
+      </td></tr>
+    </tbody>
+  </table>
 
   <table>
     <thead>
