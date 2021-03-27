@@ -268,7 +268,7 @@
 
   <p></p>
 
-  <pre></code>netlify dev</code></pre>
+  <pre><code>netlify dev</code></pre>
 
   <p></p>
 
