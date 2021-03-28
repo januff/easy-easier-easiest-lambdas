@@ -32,6 +32,14 @@
 
 <p></p>
 
+<pre><code>npm run dev</code></pre>
+
+<p></p>
+
+<img style="border-radius:10px;max-width:720px" src="../assets/vercel-run-dev.gif"/>
+
+<p></p>
+
 <table>
   <thead>
     <tr><th>
@@ -39,6 +47,10 @@
     </th></tr>
   </thead>
 </table>
+
+<p></p>
+
+<img style="border-radius:10px;max-width:720px" src="../assets/vercel-dev-3000.jpg"/>
 
 <p></p>
 
