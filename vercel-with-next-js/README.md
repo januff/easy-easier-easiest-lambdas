@@ -17,43 +17,42 @@
 
 
 <details open>
-<summary><strong>1. Log Hello World</strong>
-</summary>
+  <summary><strong>1. Log Hello World</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Local Development</a>
-    </th></tr>
-  </thead>
-</table>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Local Development</a>
+      </th></tr>
+    </thead>
+  </table>
 
-<p></p>
+  <p></p>
 
-<pre><code>npm run dev</code></pre>
+  <pre><code>npm run dev</code></pre>
 
-<p></p>
+  <p></p>
 
-<img style="border-radius:10px;max-width:720px" src="../assets/vercel-run-dev.gif"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-run-dev.gif"/>
 
-<p></p>
+  <p></p>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Next.js Docs: <a href="https://nextjs.org/docs/api-routes/introduction">API Routes</a>
-    </th></tr>
-  </thead>
-</table>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Next.js Docs: <a href="https://nextjs.org/docs/api-routes/introduction">API Routes</a>
+      </th></tr>
+    </thead>
+  </table>
 
-<p></p>
+  <p></p>
 
-<img style="border-radius:10px;max-width:720px" src="../assets/vercel-dev-3000.jpg"/>
+  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-dev-3000.jpg"/>
 
-<p></p>
-
+  <p></p>
 
 </details>
 
@@ -62,117 +61,157 @@
 
 
 <details open>
-<summary><strong>2. Deploy Hello World</strong>
-</summary>
+  <summary><strong>2. Deploy Hello World</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Vercel Docs: <a href="https://nextjs.org/docs/deployment">Deployment</a>
-    </th></tr>
-  </thead>
-</table>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Vercel Docs: <a href="https://nextjs.org/docs/deployment">Deployment</a>
+      </th></tr>
+    </thead>
+  </table>
 
-<p></p>
+  <p></p>
 
-</details>
+  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-deploy-hello.gif"/>
 
-<p></p>
+  <p></p>
 
-<details open>
-<summary><strong>3. Pass URL Params</strong>
-</summary>
+  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-deploy-hello.jpg"/>
 
-<p></p>
-
-<table>
-  <thead>
-    <tr><th>
-      📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Path Segments</a>
-    </th></tr>
-  </thead>
-</table>
-
-<p></p>
-
+  <p></p>
 
 </details>
 
-
-<p></p>
-
-
-<details closed>
-<summary><strong>4. Install NPM Packages</strong>
-</summary>
-
-<p></p>
-
-<em>Details in progress.</em>
-
-<p></p>
-
-</details>
 
 <p></p>
 
 
 <details open>
-<summary><strong>5. Set Env Values</strong>
-</summary>
+  <summary><strong>3. Pass URL Params</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Next.js Docs: <a href="https://nextjs.org/docs/basic-features/environment-variables">Environmental Variables</a>
-    </th></tr>
-  </thead>
-</table>
+  <strong><em>vercel-with-next-js > pages > api > hello.js</em></strong>
+  <p></p>
 
-<p></p>
+  <pre><code>export default (req, res) => {
+    const name = req.query.name ?? "World"
+    res.status(200).json({ body: `Hello ${name}` })
+  }</code></pre>
 
-<table>
-  <thead>
-    <tr><th>
-      📖 Vercel Docs: <a href="https://vercel.com/docs/environment-variables">Environmental Variables</a>
-    </th></tr>
-  </thead>
-</table>
+  <p></p>
 
-<p></p>
+  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-params-3000.jpg"/>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Path Segments</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
+  <strong><em>vercel-with-next-js > pages > api > hello > [name].js</em></strong>
+  <p></p>
+
+  <pre><code>export default function handler(req, res) {
+    const { name } = req.query
+    res.end(`Hello ${name} (v2)`)
+  }</code></pre>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-dev-hello-v2.jpg"/>
+
+  <p></p>
 
 </details>
+
 
 <p></p>
 
 
 <details closed>
-<summary><strong>6. Test Authentication</strong>
-</summary>
+  <summary><strong>4. Install NPM Packages</strong>
+  </summary>
 
-<p></p>
+  <p></p>
 
-<em>Details in progress.</em>
+  <em>Details in progress.</em>
 
-<p></p>
+  <p></p>
 
 </details>
+
+
+<p></p>
+
+
+<details open>
+  <summary><strong>5. Set Env Values</strong>
+  </summary>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Next.js Docs: <a href="https://nextjs.org/docs/basic-features/environment-variables">Environmental Variables</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Vercel Docs: <a href="https://vercel.com/docs/environment-variables">Environmental Variables</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
+</details>
+
 
 <p></p>
 
 
 <details closed>
-<summary><strong>7. Deploy Authenticated</strong>
-</summary>
+  <summary><strong>6. Test Authentication</strong>
+  </summary>
+
+  <p></p>
+
+  <em>Details in progress.</em>
+
+  <p></p>
+
+</details>
+
 
 <p></p>
 
-<em>Details in progress.</em>
 
-<p></p>
+<details closed>
+  <summary><strong>7. Deploy Authenticated</strong>
+  </summary>
+
+  <p></p>
+
+  <em>Details in progress.</em>
+
+  <p></p>
 
 </details>
