@@ -109,7 +109,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:520px" src="../assets/datastax-sdk.jpg"/>
+  <img style="border-radius:10px;width:520px" src="../assets/datastax-sdk.jpg"/>
 
   <p></p>
 
