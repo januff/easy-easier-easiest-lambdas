@@ -357,7 +357,9 @@ module.exports = { handler }</code></pre>
     </tbody>
   </table>
 
-  <table>
+  <p></p>
+
+  <!-- <table>
     <thead>
       <tr><th>
         ⚠️ TimeoutError: Task timed out after 10.00 seconds
@@ -368,8 +370,7 @@ module.exports = { handler }</code></pre>
         Simplify your function or try Netlify's <a href="https://docs.netlify.com/functions/background-functions/">Background Functions</a>.
       </td></tr>
     </tbody>
-  </table>
-
-  <p></p>
+  </table> -->
 
 </details>
+
