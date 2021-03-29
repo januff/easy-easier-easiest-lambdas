@@ -16,7 +16,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>1. Log Hello World</strong>
   </summary>
 
@@ -60,7 +60,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>2. Deploy Hello World</strong>
   </summary>
 
@@ -90,7 +90,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>3. Pass URL Params</strong>
   </summary>
 
@@ -146,9 +146,10 @@
 
   <p></p>
 
-  <em>Details in progress.</em>
+  <pre><code>npm i @astrajs/collections</code></pre>
 
-  <p></p>
+5
+
 
 </details>
 
@@ -179,6 +180,22 @@
       </th></tr>
     </thead>
   </table>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-local.gif"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-local.jpg"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-restart.jpg"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-3000.jpg"/>
 
   <p></p>
 
