@@ -250,11 +250,11 @@ export default async (req, res) => {
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-push-token.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-web.gif"/>
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-token-error.jpg"/>
+  <!-- <img style="border-radius:10px;max-width:520px" src="../assets/vercel-token-error.jpg"/>
 
   <p></p>
 
@@ -271,6 +271,6 @@ export default async (req, res) => {
     </tbody>
   </table>
 
-  <p></p>
+  <p></p> -->
 
 </details>
