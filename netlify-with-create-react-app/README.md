@@ -54,7 +54,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-init.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-init.gif"/>
 
   <p></p>
   
@@ -82,7 +82,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-error.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-functions-error.gif"/>
 
   <p></p>
 
@@ -104,7 +104,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-functions-create.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-functions-create.gif"/>
 
   <p></p>
 
@@ -112,15 +112,15 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-8888.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-dev-8888.gif"/>
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-hello.png"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-dev-hello.png"/>
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-200.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-dev-200.gif"/>
 
   <p></p>
 
@@ -168,7 +168,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-deploy-hello.png"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-deploy-hello.png"/>
 
   <p></p>
 
@@ -203,7 +203,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-params.png"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-params.png"/>
 
   <p></p>
 
@@ -221,7 +221,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-npm-i.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-npm-i.gif"/>
 
   <p></p>
 
@@ -249,7 +249,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-dev-restart.jpg"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-dev-restart.jpg"/>
 
   <p></p>
 
@@ -272,7 +272,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-env-8888.jpg"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-env-8888.jpg"/>
 
   <p></p>
 
@@ -318,7 +318,7 @@ module.exports = { handler }</code></pre>
 
 <p></p>
 
-<img style="border-radius:10px;max-width:720px" src="../assets/netlify-test-token.jpg"/>
+<img style="border-radius:10px;max-width:520px" src="../assets/netlify-test-token.jpg"/>
 
 <p></p>
 
@@ -332,19 +332,23 @@ module.exports = { handler }</code></pre>
 
   <p></p>
 
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-env-web.gif"/>
+
+  <p></p>
+
   <pre><code>netlify deploy</code></pre>
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-deploy.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-deploy-final.gif"/>
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/netlify-deploy-error.jpg"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-deploy-final.jpg"/>
 
   <p></p>
 
-  <table>
+  <!-- <table>
     <thead>
       <tr><th>
         ⚠️ Error: @astrajs/rest: baseUrl required for initialization
@@ -355,7 +359,7 @@ module.exports = { handler }</code></pre>
         Not yet sure what's happening here.
       </td></tr>
     </tbody>
-  </table>
+  </table> -->
 
   <p></p>
 

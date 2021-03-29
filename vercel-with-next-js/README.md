@@ -150,7 +150,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-npm-i.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-npm-i.gif"/>
 
   <p></p>
 
