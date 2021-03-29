@@ -36,7 +36,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-run-dev.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-run-dev.gif"/>
 
   <p></p>
 
@@ -50,7 +50,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-dev-3000.jpg"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-dev-3000.jpg"/>
 
   <p></p>
 
@@ -76,11 +76,11 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-deploy-hello.gif"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-deploy-hello.gif"/>
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-deploy-hello.jpg"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-deploy-hello.jpg"/>
 
   <p></p>
 
@@ -106,7 +106,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-params-3000.jpg"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-params-3000.jpg"/>
 
   <p></p>
 
@@ -130,7 +130,7 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:720px" src="../assets/vercel-dev-hello-v2.jpg"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-dev-hello-v2.jpg"/>
 
   <p></p>
 
@@ -157,7 +157,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>5. Set Env Values</strong>
   </summary>
 
@@ -205,15 +205,35 @@
 <p></p>
 
 
-<details closed>
+<details open>
   <summary><strong>6. Test Authentication</strong>
   </summary>
 
   <p></p>
 
-  <em>Details in progress.</em>
+  <pre><code>const { createClient } = require("@astrajs/collections");
+
+export default async (req, res) => {
+  const region = process.env.ASTRA_DB_REGION
+  const name = req.query.name ?? "World"
+  
+  // create an Astra client  
+  const astraClient = await createClient({
+    astraDatabaseId: process.env.ASTRA_DB_ID,
+    astraDatabaseRegion: process.env.ASTRA_DB_REGION,
+    applicationToken: process.env.ASTRA_DB_APPLICATION_TOKEN,
+  });
+  
+  res.status(200).json({ 
+    body: `Hello ${name}. 
+           Region: ${region}.
+           Token: ${astraClient.restClient.applicationToken}.` 
+          })
+}</code></pre>
 
   <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-test-token.jpg"/>
 
 </details>
 
