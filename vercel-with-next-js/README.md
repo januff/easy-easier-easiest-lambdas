@@ -254,23 +254,10 @@ export default async (req, res) => {
 
   <p></p>
 
-  <!-- <img style="border-radius:10px;max-width:520px" src="../assets/vercel-token-error.jpg"/>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-deploy-astra.jpg"/>
 
   <p></p>
 
-  <table>
-    <thead>
-      <tr><th>
-        ⚠️ Internal Server Error: Failed to load resource: the server responded with a status of 500 ()
-      </th></tr>
-    </thead>
-    <tbody>
-      <tr><td>
-        Not yet sure what's happening here.
-      </td></tr>
-    </tbody>
-  </table>
 
-  <p></p> -->
 
 </details>
