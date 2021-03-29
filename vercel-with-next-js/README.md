@@ -205,7 +205,7 @@
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>6. Test Authentication</strong>
   </summary>
 
@@ -241,13 +241,17 @@ export default async (req, res) => {
 <p></p>
 
 
-<details closed>
+<details open>
   <summary><strong>7. Deploy Authenticated</strong>
   </summary>
 
   <p></p>
 
-  <em>Details in progress.</em>
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-push-token.gif"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-token-error.jpg"/>
 
   <p></p>
 
