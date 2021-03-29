@@ -255,4 +255,19 @@ export default async (req, res) => {
 
   <p></p>
 
+  <table>
+    <thead>
+      <tr><th>
+        ⚠️ Internal Server Error: Failed to load resource: the server responded with a status of 500 ()
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+        Not yet sure what's happening here.
+      </td></tr>
+    </tbody>
+  </table>
+
+  <p></p>
+
 </details>

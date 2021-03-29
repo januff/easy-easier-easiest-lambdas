@@ -352,7 +352,7 @@ module.exports = { handler }</code></pre>
     </thead>
     <tbody>
       <tr><td>
-        Not sure what's happening here!
+        Not yet sure what's happening here.
       </td></tr>
     </tbody>
   </table>
