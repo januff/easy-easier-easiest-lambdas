@@ -13,6 +13,12 @@ This repo collects step-by-step deployment instructions for all three platforms.
 
 <p></p>
 
+<a href="amplify-with-create-react-app">📔 Amplify Step-by-Step ➡️ </a>
+
+<a href="datastax-serverless-db"></a>
+
+<p></p>
+
 <table>
   <thead>
     <tr><th>
@@ -23,13 +29,13 @@ This repo collects step-by-step deployment instructions for all three platforms.
 
 <p></p>
 
-<a href="amplify-with-create-react-app">📔 Amplify Step-by-Step ➡️ </a>
 
-<a href="datastax-serverless-db"></a>
+<code><strong>Netlify</strong></code>  
 
 <p></p>
 
-<code><strong>Netlify</strong></code>  
+<a href="netlify-with-create-react-app">📔 Netlify Step-by-Step ➡️ </a>
+
 
 <p></p>
 
@@ -43,13 +49,11 @@ This repo collects step-by-step deployment instructions for all three platforms.
 
 <p></p>
 
-<a href="netlify-with-create-react-app">📔 Netlify Step-by-Step ➡️ </a>
-
+<code><strong>Vercel</strong></code>
 
 <p></p>
 
-<code><strong>Vercel</strong></code>
-
+<a href="vercel-with-next-js">📔 Vercel Step-by-Step ➡️ </a>
 
 <p></p>
 
@@ -62,9 +66,6 @@ This repo collects step-by-step deployment instructions for all three platforms.
 </table>
 
 
-<p></p>
-
-<a href="vercel-with-next-js">📔 Vercel Step-by-Step ➡️ </a>
 
 
 ### Apache Cassandra-as-a-Service 👩‍🚀 ###
