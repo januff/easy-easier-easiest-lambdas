@@ -4,9 +4,7 @@
 
 Back in the day, setting up AWS Lambdas could indeed be treacherous (eg. [for me, last year](https://joeyanuff-33180.medium.com/6-tricks-for-simpler-cloud-cv-1036b99ac791).) But these days Amazon's <code><strong>Amplify CLI</strong></code> has vastly simplified Lambda configuration, while <code><strong>Netlify</strong></code> and <code><strong>Vercel</strong></code> offer workflows that make Lambda setup even simpler. 
 
-This repo collects step-by-step deployment instructions for all three platforms. (In a [companion essay on _Medium_](), I assess them for my comic book translation app.)
-
-Where the steps occur on a web dashboard or a command-line interface (CLI), I've included animated GIFs to illustrate the interaction.
+This repo collects step-by-step deployment instructions for all three platforms. (In a [companion essay on _Medium_](), I assess them for my comic book translation app.) Where the steps occur on a web dashboard or a command-line interface (CLI), I've included animated GIFs to illustrate the interaction.
 
 ### AWS Lambda Quickstarts ⏲️ ###
 
