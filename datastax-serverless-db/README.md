@@ -106,7 +106,7 @@ ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab
   <table>
     <thead>
       <tr><th>
-        📖 DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/astra-collection-client.html">Node.js Collection Client</a>
+        📖 Official DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/astra-collection-client.html">Node.js Collection Client</a>
       </th></tr>
     </thead>
   </table>
