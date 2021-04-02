@@ -1,8 +1,8 @@
-#### AWS Lambdas: Vercel With Next.js  ####
+### AWS Lambdas: Vercel With Next.js  ###
 
 <p></p>
 
-### Project Init ###
+#### Project Init ####
 
 <p></p>
 
