@@ -13,7 +13,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 
 <p></p>
 
-<a href="amplify-with-create-react-app">📔 Amplify Step-by-Step ➡️ </a>
+📔 <a href="amplify-with-create-react-app">Amplify Step-by-Step</a> ➡️
 
 <a href="datastax-serverless-db"></a>
 
@@ -34,8 +34,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 
 <p></p>
 
-<a href="netlify-with-create-react-app">📔 Netlify Step-by-Step ➡️ </a>
-
+📔 <a href="netlify-with-create-react-app">Netlify Step-by-Step</a> ➡️
 
 <p></p>
 
@@ -53,7 +52,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 
 <p></p>
 
-<a href="vercel-with-next-js">📔 Vercel Step-by-Step ➡️ </a>
+📔 <a href="vercel-with-next-js">Vercel Step-by-Step</a> ➡️
 
 <p></p>
 
@@ -72,7 +71,7 @@ The database package in the installation and authentication steps is DataStax's 
 
 <p></p>
 
-<a href="datastax-serverless-db">📔 Astra Step-by-Step ➡️ </a>
+📔 <a href="datastax-serverless-db">Astra Step-by-Step</a> ➡️
 
 <p></p>
 
