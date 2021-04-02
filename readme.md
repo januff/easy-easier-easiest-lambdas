@@ -68,7 +68,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 
 ### Apache Cassandra-as-a-Service 👩‍🚀 ###
 
-The database package in the installation and authentication steps is DataStax's <a href="https://www.npmjs.com/package/@astrajs/collections">@astra/collections JavaScript library</a>, which I'm using to connect to a Cassandra NoSQL database, newly accessible as a pay-as-you-go serverless resource. (Free developer account required.)
+The database package in the installation and authentication steps is DataStax's <a href="https://www.npmjs.com/package/@astrajs/collections">@astra/collections JavaScript library</a>, which I'm using to connect to a Cassandra NoSQL database, newly accessible as a pay-as-you-go serverless resource. (<a target="_blank" href="https://astra.datastax.com/register">Free DataStax account</a> required.)
 
 <p></p>
 
