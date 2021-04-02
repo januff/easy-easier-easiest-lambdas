@@ -301,7 +301,7 @@
 
   <p></p>
 
-  <pre><code>const { createClient } = require("@astrajs/collections");
+  <pre><code style="javascript">const { createClient } = require("@astrajs/collections");
 
   exports.handler = async (event) => {
 
