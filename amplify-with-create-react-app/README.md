@@ -1,4 +1,4 @@
-#### AWS Lambdas: Amplify CLI With Create React App  ####
+### AWS Lambdas: Amplify CLI With Create React App  ###
 
 <p></p>
 
