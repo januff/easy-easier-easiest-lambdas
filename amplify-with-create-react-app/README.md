@@ -6,6 +6,16 @@
 
 <p></p>
 
+<table>
+  <thead>
+    <tr><th>
+      📖 Official Amplify Docs: <a href="https://docs.amplify.aws/cli/start/install">Install the Amplify CLI</a>
+    </th></tr>
+  </thead>
+</table>
+
+<p></p>
+
 <pre><code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
 
 <p></p>

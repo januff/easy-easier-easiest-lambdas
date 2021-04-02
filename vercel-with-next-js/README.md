@@ -6,11 +6,21 @@
 
 <p></p>
 
-<pre><code>npx create-next-app vercel-with-next-js && cd $_</code></pre>
+<table>
+  <thead>
+    <tr><th>
+      📖 Official Next.js Docs: <a href="https://nextjs.org/docs/api-reference/create-next-app">Create Next App</a>
+    </th></tr>
+  </thead>
+</table>
 
 <p></p>
 
-<pre><code>npm i -g vercel</code></pre>
+<pre><code>npx create-next-app vercel-with-next-js && cd $_</code></pre>
+
+<!-- <p></p>
+
+<pre><code>npm i -g vercel</code></pre> -->
 
 
 <p></p>
@@ -32,7 +42,7 @@
 
   <img style="border-radius:10px;max-width:520px" src="../assets/vercel-dev-3000.jpg"/>
 
-  <p></p>
+  <!-- <p></p>
 
   <table>
     <thead>
@@ -40,7 +50,7 @@
         📖 Official Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Local Development</a>
       </th></tr>
     </thead>
-  </table>
+  </table> -->
 
   <p></p>
 
@@ -50,6 +60,21 @@
         📖 Official Next.js Docs: <a href="https://nextjs.org/docs/api-routes/introduction">API Routes</a>
       </th></tr>
     </thead>
+  </table>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        ⚠️ <samp>zsh: command not found: next</samp>
+      </th></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+        Use <code>npm run dev</code> instead of <code>next dev</code>
+      </td>
+    </tbody>
   </table>
 
   <p></p>
@@ -121,6 +146,16 @@
   <p></p>
 
   <img style="border-radius:10px;max-width:520px" src="../assets/vercel-dev-hello-v2.jpg"/>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Official Next.js Docs: <a href="https://nextjs.org/docs/api-routes/dynamic-api-routes">Dynamic API Routes</a>
+      </th></tr>
+    </thead>
+  </table>
 
   <p></p>
 
@@ -251,10 +286,6 @@ export default async (req, res) => {
 <details closed>
   <summary><strong>7. Deploy Authenticated</strong>
   </summary>
-
-  <p></p>
-
-  <pre><code>netlify deploy</code></pre>
 
   <p></p>
 
