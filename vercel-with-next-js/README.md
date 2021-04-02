@@ -6,6 +6,10 @@
 
 <p></p>
 
+<pre><code>npx create-next-app vercel-with-next-js && cd $_</code></pre>
+
+<p></p>
+
 <table>
   <thead>
     <tr><th>
@@ -13,10 +17,6 @@
     </th></tr>
   </thead>
 </table>
-
-<p></p>
-
-<pre><code>npx create-next-app vercel-with-next-js && cd $_</code></pre>
 
 <!-- <p></p>
 

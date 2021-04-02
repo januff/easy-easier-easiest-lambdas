@@ -6,6 +6,10 @@
 
 <p></p>
 
+<pre><code>npm i -g @aws-amplify/cli</code></pre>
+
+<p></p>
+
 <table>
   <thead>
     <tr><th>
@@ -17,10 +21,6 @@
 <p></p>
 
 <pre><code>npx create-react-app amplify-with-create-react-app && cd $_</code></pre>
-
-<p></p>
-
-<pre><code>npm i -g @aws-amplify/cli</code></pre>
 
 
 <p></p>

@@ -6,6 +6,10 @@
 
 <p></p>
 
+<pre><code>npm install netlify-cli -g</code></pre>
+
+<p></p>
+
 <table>
   <thead>
     <tr><th>
@@ -17,10 +21,6 @@
 <p></p>
 
 <pre><code>npx create-react-app netlify-with-create-react-app && cd $_</code></pre>
-
-<p></p>
-
-<pre><code>npm install netlify-cli -g</code></pre>
 
 <p></p>
 
