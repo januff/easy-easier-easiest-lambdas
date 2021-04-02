@@ -22,6 +22,18 @@
 
   <p></p>
 
+  <pre><code>npm run dev</code></pre>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-run-dev.gif"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-dev-3000.jpg"/>
+
+  <p></p>
+
   <table>
     <thead>
       <tr><th>
@@ -32,14 +44,6 @@
 
   <p></p>
 
-  <pre><code>npm run dev</code></pre>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-run-dev.gif"/>
-
-  <p></p>
-
   <table>
     <thead>
       <tr><th>
@@ -47,10 +51,6 @@
       </th></tr>
     </thead>
   </table>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-dev-3000.jpg"/>
 
   <p></p>
 
@@ -66,6 +66,14 @@
 
   <p></p>
 
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-deploy-hello.gif"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-deploy-hello.jpg"/>
+
+  <p></p>
+
   <table>
     <thead>
       <tr><th>
@@ -73,15 +81,7 @@
       </th></tr>
     </thead>
   </table>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-deploy-hello.gif"/>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-deploy-hello.jpg"/>
-
+  
   <p></p>
 
 </details>
@@ -110,16 +110,6 @@
 
   <p></p>
 
-  <table>
-    <thead>
-      <tr><th>
-        📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Path Segments</a>
-      </th></tr>
-    </thead>
-  </table>
-
-  <p></p>
-
   <strong><em>vercel-with-next-js > pages > api > hello > [name].js</em></strong>
   <p></p>
 
@@ -134,6 +124,16 @@
 
   <p></p>
 
+  <table>
+    <thead>
+      <tr><th>
+        📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Path Segments</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+  
 </details>
 
 
@@ -166,6 +166,26 @@
 
   <p></p>
 
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-local.gif"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-local.jpg"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-restart.jpg"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-3000.jpg"/>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-web.gif"/>
+
+  <p></p>
+
   <table>
     <thead>
       <tr><th>
@@ -186,22 +206,6 @@
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-local.gif"/>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-local.jpg"/>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-restart.jpg"/>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-3000.jpg"/>
-
-  <p></p>
-
 </details>
 
 
@@ -209,7 +213,7 @@
 
 
 <details closed>
-  <summary><strong>6. Test Authentication</strong>
+  <summary><strong>6. Test Token</strong>
   </summary>
 
   <p></p>
@@ -244,20 +248,18 @@ export default async (req, res) => {
 <p></p>
 
 
-<details open>
+<details closed>
   <summary><strong>7. Deploy Authenticated</strong>
   </summary>
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-web.gif"/>
+  <pre><code>netlify deploy</code></pre>
 
   <p></p>
 
   <img style="border-radius:10px;max-width:520px" src="../assets/vercel-deploy-astra.jpg"/>
 
   <p></p>
-
-
 
 </details>
