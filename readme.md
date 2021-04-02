@@ -76,24 +76,6 @@ The database package in the installation and authentication steps is DataStax's 
 
 <p></p>
 
-
-
-
-
-
-
-<p></p>
-
-
-
-</details>
-
-
-<p></p>
-
-
----
-
 ### Some Helpful Explanations 💬 ###
 
 <code><strong>for SERVERLESS</strong></code>
