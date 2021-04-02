@@ -12,7 +12,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 DataStax Registration: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Free Account</a>
+        📖 DataStax Registration: <a href="https://astra.datastax.com/register">Free Account</a>
       </th></tr>
     </thead>
   </table>
@@ -38,7 +38,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 DataStax Dashboard: <a href="https://nextjs.org/docs/deployment">Overview</a>
+        📖 DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/creating-your-astra-database.html">Create your Astra database</a>
       </th></tr>
     </thead>
   </table>
@@ -68,7 +68,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Database Settings: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Application Tokens</a>
+        📖 DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/manage-application-tokens.html">Manage Application Tokens</a>
       </th></tr>
     </thead>
   </table>
@@ -106,7 +106,7 @@ ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab
   <table>
     <thead>
       <tr><th>
-        📖 Database Connect: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Connect Using an SDK</a>
+        📖 DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/astra-collection-client.html">Node.js Collection Client</a>
       </th></tr>
     </thead>
   </table>
