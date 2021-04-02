@@ -37,7 +37,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Local Development</a>
+        📖 Official Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Local Development</a>
       </th></tr>
     </thead>
   </table>
@@ -47,7 +47,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Next.js Docs: <a href="https://nextjs.org/docs/api-routes/introduction">API Routes</a>
+        📖 Official Next.js Docs: <a href="https://nextjs.org/docs/api-routes/introduction">API Routes</a>
       </th></tr>
     </thead>
   </table>
@@ -77,7 +77,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Vercel Docs: <a href="https://nextjs.org/docs/deployment">Deployment</a>
+        📖 Official Vercel Docs: <a href="https://nextjs.org/docs/deployment">Deployment</a>
       </th></tr>
     </thead>
   </table>
@@ -127,7 +127,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Path Segments</a>
+        📖 Official Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Path Segments</a>
       </th></tr>
     </thead>
   </table>
@@ -189,7 +189,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Next.js Docs: <a href="https://nextjs.org/docs/basic-features/environment-variables">Environmental Variables</a>
+        📖 Official Next.js Docs: <a href="https://nextjs.org/docs/basic-features/environment-variables">Environmental Variables</a>
       </th></tr>
     </thead>
   </table>
@@ -199,7 +199,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Vercel Docs: <a href="https://vercel.com/docs/environment-variables">Environmental Variables</a>
+        📖 Official Vercel Docs: <a href="https://vercel.com/docs/environment-variables">Environmental Variables</a>
       </th></tr>
     </thead>
   </table>

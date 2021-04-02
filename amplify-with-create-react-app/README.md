@@ -64,7 +64,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/start/workflows">Initialize new project</a>
+        📖 Official Amplify Docs: <a href="https://docs.amplify.aws/cli/start/workflows">Initialize new project</a>
       </th></tr>
     </thead>
   </table>
@@ -121,7 +121,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/restapi#create-a-rest-api">Create a REST API</a>
+        📖 Official Amplify Docs: <a href="https://docs.amplify.aws/cli/restapi#create-a-rest-api">Create a REST API</a>
       </th></tr>
     </thead>
   </table>
@@ -192,7 +192,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Amplify Docs: <a href="https://docs.amplify.aws/lib/restapi/fetch/q/platform/js#accessing-query-parameters--body-in-lambda-proxy-function">Accessing query parameters & body in Lambda proxy function</a>
+        📖 Official Amplify Docs: <a href="https://docs.amplify.aws/lib/restapi/fetch/q/platform/js#accessing-query-parameters--body-in-lambda-proxy-function">Accessing query parameters & body in Lambda proxy function</a>
       </th></tr>
     </thead>
   </table>
@@ -251,7 +251,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/usage/mock#function-mock-environment-variables">Function mock environment variables</a>
+        📖 Official Amplify Docs: <a href="https://docs.amplify.aws/cli/usage/mock#function-mock-environment-variables">Function mock environment variables</a>
       </th></tr>
     </thead>
     <tbody>
@@ -282,7 +282,7 @@ ASTRA_DB_APPLICATION_TOKEN=AstraCS:NsivximNmFmseTaPjXaaxkWo:c13bcf62ab3a158b73ab
   <table>
     <thead>
       <tr><th>
-        📖 Amplify Docs: <a href="https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-config">Configuring environment variables</a>
+        📖 Official Amplify Docs: <a href="https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-config">Configuring environment variables</a>
       </th></tr>
     </thead>
   </table>

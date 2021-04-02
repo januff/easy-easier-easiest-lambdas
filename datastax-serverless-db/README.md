@@ -38,7 +38,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/creating-your-astra-database.html">Create your Astra database</a>
+        📖 Official DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/creating-your-astra-database.html">Create your Astra database</a>
       </th></tr>
     </thead>
   </table>
@@ -68,7 +68,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/manage-application-tokens.html">Manage Application Tokens</a>
+        📖 Official DataStax Docs: <a href="https://docs.datastax.com/en/astra/docs/manage-application-tokens.html">Manage Application Tokens</a>
       </th></tr>
     </thead>
   </table>

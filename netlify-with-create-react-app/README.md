@@ -9,7 +9,7 @@
 <table>
   <thead>
     <tr><th>
-      📖 Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#installation">Installation</a>
+      📖 Official Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#installation">Installation</a>
     </th></tr>
   </thead>
 </table>
@@ -92,7 +92,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#get-started-with-netlify-dev">Get started with Netlify Dev</a>
+        📖 Official Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#get-started-with-netlify-dev">Get started with Netlify Dev</a>
       </th></tr>
     </thead>
   </table>
@@ -102,7 +102,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Netlify Docs: <a href="https://docs.netlify.com/functions/build-with-javascript/">Build serverless functions with JavaScript</a>
+        📖 Official Netlify Docs: <a href="https://docs.netlify.com/functions/build-with-javascript/">Build serverless functions with JavaScript</a>
       </th></tr>
     </thead>
   </table>
@@ -112,7 +112,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-world!">Playground: Hello, World!</a>
+        📖 Official Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-world!">Playground: Hello, World!</a>
       </th></tr>
     </thead>
   </table>
@@ -122,7 +122,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Netlify Docs: <a href="https://cli.netlify.com/commands/functions#functionscreate">functions:create</a>
+        📖 Official Netlify Docs: <a href="https://cli.netlify.com/commands/functions#functionscreate">functions:create</a>
       </th></tr>
     </thead>
   </table>
@@ -167,7 +167,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Netlify Docs: <a href="https://docs.netlify.com/functions/configure-and-deploy/">Configure and deploy Functions</a>
+        📖 Official Netlify Docs: <a href="https://docs.netlify.com/functions/configure-and-deploy/">Configure and deploy Functions</a>
       </th></tr>
     </thead>
   </table>
@@ -205,7 +205,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-%7Bname%7D">Playground: Hello, {name}</a>
+        📖 Official Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-%7Bname%7D">Playground: Hello, {name}</a>
       </th></tr>
     </thead>
   </table>
@@ -282,7 +282,7 @@
   <table>
     <thead>
       <tr><th>
-        📖 Netlify Docs: <a href="https://docs.netlify.com/configure-builds/environment-variables/#declare-variables">Environmental Variables</a>
+        📖 Official Netlify Docs: <a href="https://docs.netlify.com/configure-builds/environment-variables/#declare-variables">Environmental Variables</a>
       </th></tr>
     </thead>
   </table>

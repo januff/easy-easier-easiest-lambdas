@@ -22,7 +22,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 <table>
   <thead>
     <tr><th>
-      📖 Amplify Docs: <a href="https://docs.amplify.aws/cli/function">Functions Overview</a>
+      📖 Official Amplify Docs: <a href="https://docs.amplify.aws/cli/function">Functions Overview</a>
     </th></tr>
   </thead>
 </table>
@@ -41,7 +41,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 <table>
   <thead>
     <tr><th>
-      📖 Netlify Docs: <a href="https://www.netlify.com/products/functions/">Netlify Functions</a>
+      📖 Official Netlify Docs: <a href="https://www.netlify.com/products/functions/">Netlify Functions</a>
     </th></tr>
   </thead>
 </table>
@@ -59,7 +59,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 <table>
   <thead>
     <tr><th>
-      📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction">Serverless Functions</a>
+      📖 Official Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction">Serverless Functions</a>
     </th></tr>
   </thead>
 </table>
