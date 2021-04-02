@@ -1,4 +1,4 @@
-#### DataStax: Serverless Database Quickstart  ####
+### DataStax: Serverless Database Quickstart  ###
 
 <p></p>
 
@@ -42,7 +42,7 @@
       </th></tr>
     </thead>
   </table>
-  
+
   <p></p>
 
 </details>
