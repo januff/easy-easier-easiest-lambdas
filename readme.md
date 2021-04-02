@@ -59,7 +59,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 <table>
   <thead>
     <tr><th>
-      📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction#path-segments">Serverless Functions</a>
+      📖 Vercel Docs: <a href="https://vercel.com/docs/serverless-functions/introduction">Serverless Functions</a>
     </th></tr>
   </thead>
 </table>
