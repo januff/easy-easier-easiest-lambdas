@@ -1,4 +1,4 @@
-### AWS Lambdas: <code>Netlify</code> With Create React App  ###
+### AWS Lambdas: <code>Netlify With Create React App</code>  ###
 
 <p></p>
 

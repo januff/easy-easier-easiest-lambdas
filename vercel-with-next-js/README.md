@@ -1,4 +1,4 @@
-### AWS Lambdas: <code>Vercel</code> With Next.js  ###
+### AWS Lambdas: <code>Vercel With Next.js</code>  ###
 
 <p></p>
 

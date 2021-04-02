@@ -9,7 +9,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 ### AWS Lambda Quickstarts ⏲️ ###
 
 
-<code><strong>Amplify CLI</strong></code>
+<code><strong>Amplify CLI With Create React App</strong></code>
 
 <p></p>
 
@@ -30,7 +30,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 <p></p>
 
 
-<code><strong>Netlify</strong></code>  
+<code><strong>Netlify With Create React App</strong></code>  
 
 <p></p>
 
@@ -49,7 +49,7 @@ This repo collects step-by-step deployment instructions for all three platforms.
 
 <p></p>
 
-<code><strong>Vercel</strong></code>
+<code><strong>Vercel With Next.js</strong></code>
 
 <p></p>
 
