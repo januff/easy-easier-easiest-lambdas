@@ -1,4 +1,4 @@
-### AWS Lambdas: Netlify With Create React App  ###
+### AWS Lambdas: <code>Netlify</code> With Create React App  ###
 
 <p></p>
 
@@ -30,26 +30,6 @@
 
   <p></p>
 
-  <table>
-    <thead>
-      <tr><th>
-        📖 Netlify Docs: <a href="https://docs.netlify.com/functions/build-with-javascript/">Build serverless functions with JavaScript</a>
-      </th></tr>
-    </thead>
-  </table>
-
-  <p></p>
-
-  <table>
-    <thead>
-      <tr><th>
-        📖 Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#get-started-with-netlify-dev">Get started with Netlify Dev</a>
-      </th></tr>
-    </thead>
-  </table>
-
-  <p></p>
-
   <pre><code>netlify init</code></pre>
 
   <p></p>
@@ -57,44 +37,14 @@
   <img style="border-radius:10px;max-width:520px" src="../assets/netlify-init.gif"/>
 
   <p></p>
-  
-  <table>
-    <thead>
-      <tr><th>
-        📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-world!">Playground: Hello, World!</a>
-      </th></tr>
-    </thead>
-  </table>
 
-  <p></p>
-
-  <table>
-    <thead>
-      <tr><th>
-        📖 Netlify Docs: <a href="https://cli.netlify.com/commands/functions#functionscreate">functions:create</a>
-      </th></tr>
-    </thead>
-  </table>
-
-  <p></p>
-
-  <pre><code>netlify functions:create hello-world</code></pre>
+  <!-- <pre><code>netlify functions:create hello-world</code></pre>
 
   <p></p>
 
   <img style="border-radius:10px;max-width:520px" src="../assets/netlify-functions-error.gif"/>
 
-  <p></p>
-
-  <table>
-    <thead>
-      <tr><th>
-        📖 Netlify Docs: <a href="https://docs.netlify.com/functions/configure-and-deploy/">Configure and deploy Functions</a>
-      </th></tr>
-    </thead>
-  </table>
-
-  <p></p>
+  <p></p> -->
 
   <img style="border-radius:10px;max-width:420px" src="../assets/netlify-functions-folder.gif"/>
 
@@ -139,13 +89,63 @@
 
   <p></p>
 
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://docs.netlify.com/cli/get-started/#get-started-with-netlify-dev">Get started with Netlify Dev</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://docs.netlify.com/functions/build-with-javascript/">Build serverless functions with JavaScript</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+  
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-world!">Playground: Hello, World!</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://cli.netlify.com/commands/functions#functionscreate">functions:create</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
 </details>
 
+
 <p></p>
+
 
 <details closed>
   <summary><strong>2. Deploy Hello World</strong>
   </summary>
+
+  <p></p>
+
+  <pre><code>netlify deploy</code></pre>
+
+  <p></p>
+
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-deploy-hello.png"/>
 
   <p></p>
 
@@ -164,31 +164,26 @@
 
   <p></p>
 
-  <pre><code>netlify deploy</code></pre>
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://docs.netlify.com/functions/configure-and-deploy/">Configure and deploy Functions</a>
+      </th></tr>
+    </thead>
+  </table>
 
   <p></p>
 
-  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-deploy-hello.png"/>
-
-  <p></p>
 
 </details>
 
+
 <p></p>
+
 
 <details closed>
   <summary><strong>3. Pass URL Params</strong>
   </summary>
-
-  <p></p>
-
-  <table>
-    <thead>
-      <tr><th>
-        📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-%7Bname%7D">Playground: Hello, {name}</a>
-      </th></tr>
-    </thead>
-  </table>
 
   <p></p>
 
@@ -207,9 +202,21 @@
 
   <p></p>
 
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://functions.netlify.com/playground/#hello%2C-%7Bname%7D">Playground: Hello, {name}</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
 </details>
 
+
 <p></p>
+
 
 <details closed>
   <summary><strong>4. Install NPM Packages</strong>
@@ -227,21 +234,13 @@
 
 </details>
 
+
 <p></p>
+
 
 <details closed>
   <summary><strong>5. Set Env Values</strong>
   </summary>
-
-  <p></p>
-
-  <table>
-    <thead>
-      <tr><th>
-        📖 Netlify Docs: <a href="https://docs.netlify.com/configure-builds/environment-variables/#declare-variables">Environmental Variables</a>
-      </th></tr>
-    </thead>
-  </table>
 
   <p></p>
 
@@ -276,13 +275,29 @@
 
   <p></p>
 
+  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-env-web.gif"/>
+  
+  <p></p>
+
+  <table>
+    <thead>
+      <tr><th>
+        📖 Netlify Docs: <a href="https://docs.netlify.com/configure-builds/environment-variables/#declare-variables">Environmental Variables</a>
+      </th></tr>
+    </thead>
+  </table>
+
+  <p></p>
+
 
 </details>
 
+
 <p></p>
 
+
 <details closed>
-  <summary><strong>6. Test Authentication</strong>
+  <summary><strong>6. Test Token</strong>
   </summary>
 
   <p></p>
@@ -324,15 +339,13 @@ module.exports = { handler }</code></pre>
 
 </details>
 
+
 <p></p>
 
-<details open>
+
+<details closed>
   <summary><strong>7. Deploy Authenticated</strong>
   </summary>
-
-  <p></p>
-
-  <img style="border-radius:10px;max-width:520px" src="../assets/netlify-env-web.gif"/>
 
   <p></p>
 

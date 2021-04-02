@@ -1,4 +1,4 @@
-### AWS Lambdas: Vercel With Next.js  ###
+### AWS Lambdas: <code>Vercel</code> With Next.js  ###
 
 <p></p>
 
@@ -133,7 +133,7 @@
   </table>
 
   <p></p>
-  
+
 </details>
 
 
