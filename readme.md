@@ -1,4 +1,5 @@
-### AWS Lambdas: Easy, Easier, Easiest 🍳 ###
+# AWS Lambdas: Easy, Easier, Easiest 🍳 #
+## Step-by-step serverless functions using Amplify, Netlify, and/or Vercel, with Cassandra-as-a-Service ##
 
 <strong>“Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.”</strong> -Swizec Teller, *AWS, Vercel, Netlify, or Firebase?* ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
