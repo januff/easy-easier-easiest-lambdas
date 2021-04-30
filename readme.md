@@ -1,10 +1,8 @@
 ### AWS Lambdas: Easy, Easier, Easiest 🍳 ###
 
-Back in the day, using AWS Lambdas in your Jamstack app could be a pain indeed (eg. [for me, last year](https://joeyanuff-33180.medium.com/6-tricks-for-simpler-cloud-cv-1036b99ac791).)
-
 <strong>“Where AWS becomes overkill are typical JAMstack apps. A static site with lots of frontend logic. Hosting those on AWS is a pain whereas Netlify and Vercel make them a core feature.”</strong> -Swizec Teller, *AWS, Vercel, Netlify, or Firebase?* ([Serverless Handbook, Feb 2021](https://serverlesshandbook.dev/serverless-flavors/))
 
-But these days Amazon's <code><strong>Amplify CLI</strong></code> has greatly simplified Lambda configuration, while <code><strong>Netlify</strong></code> and <code><strong>Vercel</strong></code> offer workflows that make Lambda setup even simpler. 
+Back in the day, using AWS Lambdas in your Jamstack app could indeed be a pain (eg. [for me, last year](https://joeyanuff-33180.medium.com/6-tricks-for-simpler-cloud-cv-1036b99ac791).) But these days Amazon's <code><strong>Amplify CLI</strong></code> has greatly simplified Lambda configuration, while <code><strong>Netlify</strong></code> and <code><strong>Vercel</strong></code> offer workflows that make Lambda setup even simpler. 
 
 This repo collects step-by-step deployment instructions for all three platforms. Where the steps occur on a web dashboard or a CLI, I've included screencast GIFs to illustrate the interaction. (In a [companion essay on _Medium_](), I assess the platforms for a comic book translation app I'm developing.) 
 
