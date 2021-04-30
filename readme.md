@@ -5,7 +5,7 @@
 
 Back in the day, using AWS Lambdas in your Jamstack app could be a pain indeed (eg. [for me, last year](https://joeyanuff-33180.medium.com/6-tricks-for-simpler-cloud-cv-1036b99ac791).) But these days Amazon's <code><strong>Amplify CLI</strong></code> has greatly simplified Lambda configuration, while <code><strong>Netlify</strong></code> and <code><strong>Vercel</strong></code> offer workflows that make Lambda setup even simpler. 
 
-This repo collects step-by-step deployment instructions for all three platforms. Where the steps occur on a web dashboard or a CLI, I've included screencast GIFs to illustrate the interaction. (In a [companion essay on _Medium_](), I appraise the platforms for a comic book translation app I'm developing.) 
+This repo collects step-by-step deployment instructions for all three platforms. Where the steps occur on a web dashboard or a CLI, I've included screencast GIFs to illustrate the interaction. (In a [companion essay on _Medium_](https://joeyanuff-33180.medium.com/aws-lambdas-easy-easier-easiest-823e71c02bd9), I appraise the platforms for a comic book translation app I'm developing.) 
 
 ### AWS Lambda Quickstarts ⏲️ ###
 
