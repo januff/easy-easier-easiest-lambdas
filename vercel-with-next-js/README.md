@@ -73,7 +73,7 @@
     <tbody>
       <tr><td>
         Use <code>npm run dev</code> instead of <code>next dev</code>
-      </td>
+      </td></tr>
     </tbody>
   </table>
 
@@ -206,6 +206,19 @@
   <p></p>
 
   <img style="border-radius:10px;max-width:520px" src="../assets/vercel-env-local.jpg"/>
+
+  <p></p>
+
+  <pre><code>// pages/api/hello.js
+
+export default async (req, res) => {
+  const region = process.env.ASTRA_DB_REGION
+  const name = req.query.name ?? "World" 
+
+  res.status(200).json({ 
+    body: `Hello ${name}. Region is ${region}.` 
+  })
+}</code></pre>
 
   <p></p>
 
